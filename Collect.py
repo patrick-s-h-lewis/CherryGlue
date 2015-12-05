@@ -33,14 +33,6 @@ class CherryPipeline(object):
     def close_spider(self,spider):
         self.file.close()
 
-def runcrawl(joblist,settings,outfile):
-    runner = CrawlerRunner(settings)
-    for job in joblist:
-        runner.crawl(PickSpider,s_u=job[0],a_d=job[1])
-    d=runner.join()
-    d2 = d.addBoth(lambda _:reactor.stop())
-    reactor.run()
-    return d2
         
 def get_joblist(infile):
     joblist =[]
@@ -54,17 +46,25 @@ def get_joblist(infile):
  
     
 # instantiate settings and provide a custom configuration
-infile = 'in.json'
-outfile = 'out.json'
-settings = Settings()
-settings.set('ITEM_PIPELINES', {
-    '__main__.CherryPipeline': 100
-})
+def main(infile,outfile):
+    finished=False
+    settings = Settings()
+    settings.set('ITEM_PIPELINES', {
+        'Collect.CherryPipeline': 100
+    })
 
-settings.set('LOG_ENABLED',False)
-settings.set('FILE_NAME',outfile)
+    settings.set('LOG_ENABLED',False)
+    settings.set('FILE_NAME',outfile)
 
-joblist = get_joblist(infile)
-initialise_file(outfile)
-d2 = runcrawl(joblist,settings,outfile)
-d2.addCallback(lambda _:finalise_file(outfile))
+    joblist = get_joblist(infile)
+    initialise_file(outfile)
+    runner = CrawlerRunner(settings)
+    for job in joblist:
+        runner.crawl(PickSpider,s_u=job[0],a_d=job[1])
+    d=runner.join()
+    d2 = d.addBoth(lambda _:reactor.stop())
+    d2.addCallback(lambda _:finalise_file(outfile))
+    reactor.run()
+    return finished
+
+main('in.json','out.json')

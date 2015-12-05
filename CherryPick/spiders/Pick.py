@@ -41,7 +41,7 @@ class PickSpider(scrapy.Spider):
                 print('IN THE BANK')
                 yield item
         else:
-            print('ITS A SHITSHOW')   
+            print('Lost record')   
 
     
     def parse_crossref(self,response):
@@ -54,7 +54,7 @@ class PickSpider(scrapy.Spider):
             print('IN THE BANK')
             yield item
         else:
-            print('ITS A SHITSHOW')        
+            print('lost record')        
     
 def find_dois(txt):
     #regex modified from http://stackoverflow.com/questions/27910/finding-a-doi-in-a-document-or-page

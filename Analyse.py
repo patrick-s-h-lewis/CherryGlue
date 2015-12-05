@@ -2,7 +2,7 @@ import json
 import re
 import datetime
 
-def analyseMunch(export,scraped,failed):
+def main(export,scraped,failed):
     with open(scraped,'r') as sr:
         with open(failed,'r') as fr:
             s = json.load(sr)

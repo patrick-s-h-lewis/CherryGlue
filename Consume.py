@@ -16,7 +16,7 @@ def finalise_file(file):
     with open(file,'ab+') as f:
         f.write('{}]')
 
-def connect(mongourl,db,coll):
+def connect(mongo_url,db,coll):
     client = MongoClient(mongo_url)
     ca = client[db][coll]
     return ca
@@ -56,47 +56,34 @@ def get_domains(dbcoll):
     for rec in dbcoll.find():
         domains.append(rec['pub_website'])
     return domains
+
+def main(infile,outfile,errorfile,connection,database,collection):
+    finished=False
+    dbcoll=connect(connection,database,collection)
     
-'''def runcrawl(dois,settings,outfile,errorfile,dbcoll):
-    runner = CrawlerRunner(settings)
+    settings = Settings()
+    settings.set('ITEM_PIPELINES', {
+        'Consume.CherryPipeline': 100
+    })
+    
+    settings.set('LOG_ENABLED',False)
+    settings.set('FILE_NAME',outfile)
+    
+    dois = get_dois(infile)
+    initialise_file(outfile)
+    initialise_file(errorfile)
+    
+    runner=CrawlerRunner(settings)
+    #runner=CrawlerProcess(settings)
     dois = get_dois(infile)
     domains = get_domains(dbcoll)
-    d=runner.crawl(MunchSpider,
-         s_u=dois,
-         a_d=domains,
-         dbcoll=dbcoll,
-         errorfile=errorfile)
-    d2 = d.addBoth(lambda _:reactor.stop())
+    d=runner.crawl(MunchSpider,s_u=dois,
+             a_d=domains,
+             dbcoll=dbcoll,
+             errorfile=errorfile)
+    #runner.start()
+    d2=d.addBoth(lambda _: reactor.stop())
+    d2.addCallback(lambda _: finalise_file(outfile))
+    d2.addCallback(lambda _: finalise_file(errorfile))
     reactor.run()
-    return d2 '''
-    
-# instantiate settings and provide a custom configuration
-infile = 'out.json'
-outfile = 'complete.json'
-errorfile='errors.json'
-mongo_url = 'mongodb://localhost:6666/' #remote
-#mongo_url = 'mongodb://localhost:27017/' #local
-db = 'Cherry'
-coll = 'CherryMunch'
-dbcoll= connect(mongo_url,db,coll)
-
-settings = Settings()
-settings.set('ITEM_PIPELINES', {
-    '__main__.CherryPipeline': 100
-})
-
-settings.set('LOG_ENABLED',False)
-settings.set('FILE_NAME',outfile)
-
-dois = get_dois(infile)
-initialise_file(outfile)
-'''d2 = runcrawl(dois,settings,outfile,errorfile,dbcoll)
-d2.addCallback(lambda _:finalise_file(outfile))'''
-process=CrawlerProcess(settings)
-dois = get_dois(infile)
-domains = get_domains(dbcoll)
-process.crawl(MunchSpider,s_u=dois,
-         a_d=domains,
-         dbcoll=dbcoll,
-         errorfile=errorfile)
-process.start()
+    return finished
