@@ -1,5 +1,6 @@
 import json
 import os
+import pickle
 from twisted.internet import reactor
 from scrapy.crawler import CrawlerRunner
 from scrapy.crawler import CrawlerProcess
@@ -7,11 +8,12 @@ from scrapy.settings import Settings
 from CherryPick.spiders.Munch import MunchSpider
 import pymongo
 from pymongo import MongoClient
-
-def initialise_file(file):
-    with open(file,'ab+') as f:
-        f.write('[')
         
+def getCurrentConfigs():
+    with open('CurrentConfig.txt','r') as f:
+        conf = pickle.load(f)
+    return conf
+
 def finalise_file(file):
     with open(file,'ab+') as f:
         f.write('{}]')
@@ -29,7 +31,6 @@ class CherryPipeline(object):
         return cls(file_name)
         
     def __init__(self,file_name):
-        print('pipeline_built')
         self.file = open(file_name, 'ab+')
 
     def process_item(self, item, spider):
@@ -57,33 +58,34 @@ def get_domains(dbcoll):
         domains.append(rec['pub_website'])
     return domains
 
-def main(infile,outfile,errorfile,connection,database,collection):
-    finished=False
-    dbcoll=connect(connection,database,collection)
-    
-    settings = Settings()
-    settings.set('ITEM_PIPELINES', {
-        'Consume.CherryPipeline': 100
-    })
-    
-    settings.set('LOG_ENABLED',False)
-    settings.set('FILE_NAME',outfile)
-    
-    dois = get_dois(infile)
-    initialise_file(outfile)
-    initialise_file(errorfile)
-    
-    runner=CrawlerRunner(settings)
-    #runner=CrawlerProcess(settings)
-    dois = get_dois(infile)
-    domains = get_domains(dbcoll)
-    d=runner.crawl(MunchSpider,s_u=dois,
-             a_d=domains,
-             dbcoll=dbcoll,
-             errorfile=errorfile)
-    #runner.start()
-    d2=d.addBoth(lambda _: reactor.stop())
-    d2.addCallback(lambda _: finalise_file(outfile))
-    d2.addCallback(lambda _: finalise_file(errorfile))
+configs=getCurrentConfigs()
+
+dbcoll=connect(configs.connection,
+    configs.database,
+    configs.pubs_collection
+    )
+
+settings = Settings()
+settings.set('ITEM_PIPELINES', {
+    'Consume.CherryPipeline': 100
+})
+
+settings.set('LOG_ENABLED',False)
+settings.set('FILE_NAME',configs.resultsfile)
+
+dois = get_dois(configs.doifile)
+
+runner=CrawlerRunner(settings)
+dois = get_dois(configs.doifile)
+domains = get_domains(dbcoll)
+d=runner.crawl(MunchSpider,s_u=dois,
+         a_d=domains,
+         dbcoll=dbcoll,
+         errorfile=configs.errorfile)
+d2=d.addBoth(lambda _: reactor.stop())
+d2.addCallback(lambda _: finalise_file(configs.resultsfile))
+d2.addCallback(lambda _: finalise_file(configs.errorfile))
+try:
     reactor.run()
-    return finished
+except:
+    print('hack')

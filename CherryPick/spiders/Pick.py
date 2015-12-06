@@ -13,7 +13,6 @@ class PickSpider(scrapy.Spider):
         self.allowed_domains = kwargs['a_d']+['api.crossref.org']
 
     def parse(self, response):
-        print('Im Parsing')
         fails=0
         target_space = '//body'
         include_tags = True
@@ -38,7 +37,7 @@ class PickSpider(scrapy.Spider):
                 item = items.DoiItem()
                 item['doi']=doi
                 item['cross_ref_doi']=False
-                print('IN THE BANK')
+                print('DOI scraped')
                 yield item
         else:
             print('Lost record')   
@@ -51,7 +50,7 @@ class PickSpider(scrapy.Spider):
             item['doi']=response.meta['doi']
             item['cross_ref_doi']=True
             item['title']=js2['message']['title'][0]
-            print('IN THE BANK')
+            print('Doi scraped')
             yield item
         else:
             print('lost record')        

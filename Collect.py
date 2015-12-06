@@ -1,15 +1,17 @@
 import json
 import os
+import pickle
 from twisted.internet import reactor
 from scrapy.crawler import CrawlerRunner
 from scrapy.settings import Settings
 from CherryPick.spiders.Pick import PickSpider
 from CherryPick.spiders.Shake import ShakeSpider
-
-def initialise_file(file):
-    with open(file,'ab+') as f:
-        f.write('[')
         
+def getCurrentConfigs():
+    with open('CurrentConfig.txt','r') as f:
+        conf = pickle.load(f)
+    return conf
+    
 def finalise_file(file):
     with open(file,'ab+') as f:
         f.write('{}]')
@@ -22,7 +24,6 @@ class CherryPipeline(object):
         return cls(file_name)
         
     def __init__(self,file_name):
-        print('pipeline_built')
         self.file = open(file_name, 'ab+')
 
     def process_item(self, item, spider):
@@ -32,7 +33,6 @@ class CherryPipeline(object):
     
     def close_spider(self,spider):
         self.file.close()
-
         
 def get_joblist(infile):
     joblist =[]
@@ -43,28 +43,24 @@ def get_joblist(infile):
                domain = job['url'].split('/')[1]
                joblist.append([[job['url']],[domain]])
     return joblist
- 
-    
-# instantiate settings and provide a custom configuration
-def main(infile,outfile):
-    finished=False
-    settings = Settings()
-    settings.set('ITEM_PIPELINES', {
-        'Collect.CherryPipeline': 100
-    })
 
-    settings.set('LOG_ENABLED',False)
-    settings.set('FILE_NAME',outfile)
+configs = getCurrentConfigs()
+settings = Settings()
+settings.set('ITEM_PIPELINES', {
+    'Collect.CherryPipeline': 100
+})
 
-    joblist = get_joblist(infile)
-    initialise_file(outfile)
-    runner = CrawlerRunner(settings)
-    for job in joblist:
-        runner.crawl(PickSpider,s_u=job[0],a_d=job[1])
-    d=runner.join()
-    d2 = d.addBoth(lambda _:reactor.stop())
-    d2.addCallback(lambda _:finalise_file(outfile))
+settings.set('LOG_ENABLED',False)
+settings.set('FILE_NAME',configs.doifile)
+
+joblist = get_joblist(configs.infile)
+runner = CrawlerRunner(settings)
+for job in joblist:
+    runner.crawl(PickSpider,s_u=job[0],a_d=job[1])
+d=runner.join()
+d2 = d.addBoth(lambda _:reactor.stop())
+d2.addCallback(lambda _:finalise_file(configs.doifile))
+try:
     reactor.run()
-    return finished
-
-main('in.json','out.json')
+except:
+    print('hack')
