@@ -16,6 +16,7 @@ class CherryConfigs(object):
     records_collection = 'CherryComplete'
     doi_collection = 'CherryDoi'
     fileconvention = '%H-%M-%S %d-%m-%y'
+    infile = 'in.json'
     
     def __init__(self):
         now = datetime.now().strftime(self.fileconvention)

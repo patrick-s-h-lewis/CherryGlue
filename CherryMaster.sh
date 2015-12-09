@@ -1,7 +1,7 @@
 #!/bin/bash     
 infile=$1     
-infile="in.json"
+infile="camin.json"
 python -b initialise.py $infile;
-python -b Collect.py;
-python -b Consume.py;
+python -b CherryCollect.py;
+python -b CherryConsume.py;
 python -b Analyse.py
