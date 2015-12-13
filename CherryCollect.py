@@ -6,8 +6,8 @@ import scrapy
 from scrapy.crawler import CrawlerRunner
 from scrapy.settings import Settings
 from scrapy.utils.log import configure_logging
-import PickSpider
-import CherryPipelines
+import Spiders.PickSpider
+import Pipelines.CherryPipelines
 
 def getCurrentConfigs():
     with open('CurrentConfig.txt','r') as f:
@@ -32,21 +32,23 @@ print('hello')
 configs = getCurrentConfigs()
 settings = Settings()
 settings.set('ITEM_PIPELINES', {
-    'CherryPipelines.CherryPipeline': 100
+    'Pipelines.CherryPipelines.CherryPipeline': 100
 })
 settings.set('RETRY ENABLED',True)
 settings.set('RETRY_TIMES',10)
 
 #settings.set('LOG_ENABLED',True)
 settings.set('FILE_NAME',configs.doifile)
-#configure_logging({'LOG_FORMAT': '%(levelname)s: %(message)s'})
+configure_logging({'LOG_FORMAT': '%(levelname)s: %(message)s'})
 
 joblist = get_joblist(configs.infile)
+a_d = list(set([i[1][0] for i in joblist]))
+s_u = [i[0][0] for i in joblist]
 runner = CrawlerRunner(settings)
 '''for job in joblist:
     runner.crawl(PickSpider.PickSpider,s_u=job[0],a_d=job[1])
 d=runner.join()'''
-d=runner.crawl(PickSpider.PickSpider,s_u=[i[0][0] for i in joblist],a_d=joblist[0][1])
+d=runner.crawl(Spiders.PickSpider.PickSpider,s_u=s_u,a_d=a_d)
 d2 = d.addBoth(lambda _:reactor.stop())
 d2.addCallback(lambda _:finalise_file(configs.doifile))
 reactor.run()

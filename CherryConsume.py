@@ -4,10 +4,10 @@ import pickle
 from twisted.internet import reactor
 from scrapy.crawler import CrawlerRunner
 from scrapy.settings import Settings
-import MunchSpider
+import Spiders.MunchSpider
 import pymongo
 from pymongo import MongoClient
-import CherryPipelines
+import Pipelines.CherryPipelines
 from scrapy.utils.log import configure_logging
 
 
@@ -53,17 +53,17 @@ dbcoll=connect(configs.connection,
 
 settings = Settings()
 settings.set('ITEM_PIPELINES', {
-    'CherryPipelines.CherryPipeline': 100
+    'Pipelines.CherryPipelines.CherryPipeline': 100
 })
 
 settings.set('FILE_NAME',configs.resultsfile)
+
 configure_logging({'LOG_FORMAT': '%(levelname)s: %(message)s'})
-dois = get_dois(configs.doifile)
 
 runner=CrawlerRunner(settings)
 (doi_links,doi_sources) = get_dois(configs.doifile)
 domains = get_domains(dbcoll)
-d=runner.crawl(MunchSpider.MunchSpider,
+d=runner.crawl(Spiders.MunchSpider.MunchSpider,
          s_u=doi_links,
          d_s = doi_sources,
          a_d=domains,

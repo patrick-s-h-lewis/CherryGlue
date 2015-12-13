@@ -1,0 +1,26 @@
+Address:
+errors:
+Scitation.aip.org 992
+onlinelibrary.wiley.com 179
+www.nature.com 151
+should add: 1332
+
+
+
+add publishers:
+journals.plos.org                                 215
+www.tandfonline.com                               696
+www.atmos-chem-phys.net                           129
+www.biochemj.org                                  97
+ieeexplore.ieee.org                               444
+www.sciencemag.org                                109
+www.thieme-connect.de                             197
+www.jbc.org                                       163
+www.osapublishing.org                             335
+www.cell.com                                      247
+proceedings.spiedigitallibrary.org                155
+www.pnas.org                                      330
+should add: 3117
+
+overal should add 4449
+should increase take from 68.28877% to 90.478%

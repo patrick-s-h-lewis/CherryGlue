@@ -1,0 +1,3840 @@
+**********************************************************************
+Analysis of scraping run performed at 15:12 12 December 2015
+**********************************************************************
+
+Total records parsed:                             20049
+Total records successfully collected:             13691
+Conversion rate:                                  68.2877%
+
+
+----------------------------------------------------------------------
+Losses Breakdown:
+----------------------------------------------------------------------
+
+Total No. of records not converted:               6358
+No. lost due to errors in collection:             1569
+No. lost due to request timeouts:                 0
+No. lost due to missing publisher info:           4789
+
+
+----------------------------------------------------------------------
+Collection Errors Breakdown:
+----------------------------------------------------------------------
+
+Most collection errors for publisher:           scitation.aip.org
+
+
+Publisher                                   no. of errors
+scitation.aip.org                                 992
+onlinelibrary.wiley.com                           179
+www.sciencedirect.com                             15
+rsif.royalsocietypublishing.org                   4
+pubs.rsc.org                                      31
+www.nature.com                                    151
+rspa.royalsocietypublishing.org                   3
+journals.aps.org                                  4
+pubs.acs.org                                      6
+iopscience.iop.org                                95
+link.springer.com                                 89
+
+
+----------------------------------------------------------------------
+Missing publisher Errors Breakdown:
+----------------------------------------------------------------------
+
+Most frequent missing publisher:                www.tandfonline.com
+
+
+Publisher                                number of records
+polipapers.upv.es                                 1
+journals.prous.com                                2
+bmjopen.bmj.com                                   1
+mlq.sagepub.com                                   1
+rsnr.royalsocietypublishing.org                   1
+www.minersoc.org                                  6
+www.medicaljournals.se                            2
+jvi.asm.org                                       8
+mbe.oxfordjournals.org                            3
+www.aanda.org                                     9
+journals.plos.org                                 215
+iai.asm.org                                       2
+www.atmos-chem-phys.net                           129
+www.tandfonline.com                               696
+rsbm.royalsocietypublishing.org                   2
+www.dovepress.com                                 1
+joe.endocrinology-journals.org                    2
+www.fsijournal.org                                2
+ajcn.nutrition.org                                2
+www.cherd.ichemejournals.com                      3
+jid.oxfordjournals.org                            1
+www.jlr.org                                       3
+www.medecinesciences.org                          1
+brain.oxfordjournals.org                          2
+pih.sagepub.com                                   6
+ijepr.avestia.com                                 1
+biomedicaloptics.spiedigitallibrary.org           7
+rnajournal.cshlp.org                              4
+rsfs.royalsocietypublishing.org                   3
+diabetes.diabetesjournals.org                     6
+physrev.physiology.org                            1
+www.atmos-meas-tech.net                           11
+www.jeos.org                                      2
+www.molbiolcell.org                               9
+www.ep.liu.se                                     1
+plankt.oxfordjournals.org                         5
+dmm.biologists.org                                3
+g3journal.org                                     1
+cshperspectives.cshlp.org                         6
+www.plantcell.org                                 9
+www.scirp.org                                     3
+rstb.royalsocietypublishing.org                   31
+elementascience.org                               1
+www.5z.com                                        1
+www.hindawi.com                                   19
+cccc.uochb.cas.cz                                 2
+advances.sciencemag.org                           1
+www.icevirtuallibrary.com                         4
+ec.asm.org                                        8
+www.biochemj.org                                  97
+www.heterocycles.jp                               1
+mr.crossref.org                                   3
+genome.cshlp.org                                  2
+www.jimmunol.org                                  7
+scitation.aip.org                                 1
+jes.ecsdl.org                                     12
+mnras.oxfordjournals.org                          19
+journals.ametsoc.org                              9
+www.ajnr.org                                      2
+pubs.rsc.org                                      3
+hyper.ahajournals.org                             1
+www.worldscientific.com                           28
+embomolmed.embopress.org                          2
+www.plantphysiol.org                              13
+dl.acm.org                                        25
+hip.sagepub.com                                   3
+www.scienceopen.com                               1
+jcb.sagepub.com                                   1
+www.journalofhospitalinfection.com                2
+mnrasl.oxfordjournals.org                         2
+aem.asm.org                                       6
+online.liebertpub.com                             7
+jxb.oxfordjournals.org                            13
+www.atmos-chem-phys-discuss.net                   16
+dev.biologists.org                                11
+jpet.aspetjournals.org                            3
+bja.oxfordjournals.org                            3
+www.sciencedirect.com                             1
+www.inderscience.com                              18
+f1000research.com                                 1
+ogst.ifpenergiesnouvelles.fr                      1
+genomea.asm.org                                   1
+mcb.asm.org                                       7
+www.annualreviews.org                             25
+apsjournals.apsnet.org                            6
+pt.wkhealth.com                                   9
+database.oxfordjournals.org                       1
+nar.oxfordjournals.org                            69
+bioinformatics.oxfordjournals.org                 13
+hmg.oxfordjournals.org                            7
+jcs.biologists.org                                19
+jb.oxfordjournals.org                             1
+www.ams.org                                       1
+www.crossref.org                                  80
+jphyscol.journaldephysique.org                    8
+actachemscand.org                                 2
+jcb.rupress.org                                   10
+symposia.biochemistry.org                         2
+rspb.royalsocietypublishing.org                   17
+glycob.oxfordjournals.org                         6
+www.jucs.org                                      2
+www.jneurosci.org                                 6
+ecst.ecsdl.org                                    3
+www.nanomedjournal.com                            2
+www.jurnalteknologi.utm.my                        1
+tobaccocontrol.bmj.com                            1
+jbx.sagepub.com                                   5
+www.maneyonline.com                               5
+amj.aom.org                                       1
+cellandbioscience.biomedcentral.com               1
+www.contactlensjournal.com                        2
+www.crcnetbase.com                                3
+mct.aacrjournals.org                              5
+rsob.royalsocietypublishing.org                   10
+www.the-cryosphere.net                            1
+sp.lyellcollection.org                            1
+www.nrcresearchpress.com                          23
+www.doiserbia.nb.rs                               1
+aob.oxfordjournals.org                            1
+jim.sagepub.com                                   1
+www.jacionline.org                                6
+ammin.geoscienceworld.org                         3
+www.eurekaselect.com                              35
+teamat.oxfordjournals.org                         1
+orgsyn.org                                        1
+mic.microbiologyresearch.org                      11
+jss.ecsdl.org                                     1
+physiolgenomics.physiology.org                    1
+rsta.royalsocietypublishing.org                   45
+esl.ecsdl.org                                     8
+www.igi-global.com                                23
+atvb.ahajournals.org                              2
+www.schweizerbart.de                              1
+ebooks.cambridge.org                              5
+jb.asm.org                                        16
+www.pdpdt-journal.com                             1
+ajpcell.physiology.org                            1
+jgv.microbiologyresearch.org                      2
+www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net1
+carcin.oxfordjournals.org                         4
+www.witpress.com                                  1
+heart.bmj.com                                     2
+www.thebonejournal.com                            1
+pubs.acs.org                                      3
+femsle.oxfordjournals.org                         3
+journals.humankinetics.com                        3
+symposium.cshlp.org                               1
+femsre.oxfordjournals.org                         2
+www.biogeosciences.net                            3
+www.publish.csiro.au                              26
+www.earth-syst-sci-data.net                       1
+elifesciences.org                                 7
+ieeexplore.ieee.org                               444
+booksandjournals.brillonline.com                  1
+mutage.oxfordjournals.org                         1
+thescipub.com                                     1
+physiologyonline.physiology.org                   2
+www.spandidos-publications.com                    1
+www.karger.com                                    5
+bioscience.oxfordjournals.org                     1
+tellusa.net                                       1
+www.ingentaconnect.com                            67
+hum.sagepub.com                                   2
+diglib.eg.org                                     1
+www.bloodjournal.org                              7
+acsm.revuesonline.com                             1
+www.matec-conferences.org                         1
+www.jdsjournal.com                                1
+pub.iapchem.org                                   1
+www.ijdb.ehu.es                                   1
+www.jci.org                                       3
+elements.geoscienceworld.org                      1
+www.future-science.com                            15
+www.wormbook.org                                  1
+www.jove.com                                      5
+ajprenal.physiology.org                           1
+www.beilstein-journals.org                        27
+jac.oxfordjournals.org                            3
+www.ajsonline.org                                 1
+www.sciencemag.org                                109
+emboj.embopress.org                               39
+genesdev.cshlp.org                                3
+biecoll.ub.uni-bielefeld.de                       1
+jme.sagepub.com                                   1
+msb.embopress.org                                 1
+search.ieice.org                                  2
+embor.embopress.org                               8
+trj.sagepub.com                                   1
+pps.sagepub.com                                   1
+jp4.journaldephysique.org                         4
+pig.sagepub.com                                   1
+digital-library.theiet.org                        5
+synapse.koreamed.org                              3
+cancerres.aacrjournals.org                        4
+www.int-res.com                                   3
+www.impactjournals.com                            1
+aqua.iwaponline.com                               1
+evodevojournal.biomedcentral.com                  1
+journals.iucr.org                                 1
+journals.cambridge.org                            43
+www.jle.com                                       1
+scfbm.biomedcentral.com                           2
+www.geosci-model-dev.net                          5
+hrcak.srce.hr                                     2
+www.jaim.in                                       1
+www.asianjournalofchemistry.co.in                 2
+www.clays.org                                     1
+cardiovascres.oxfordjournals.org                  2
+www.thieme-connect.de                             197
+ije.oxfordjournals.org                            1
+www.epj-conferences.org                           1
+doi.pangaea.de                                    1
+www.scielo.br                                     1
+www.bioscirep.org                                 2
+www.genetics.org                                  1
+www.wageningenacademic.com                        1
+ageing.oxfordjournals.org                         1
+www.ann-geophys.net                               4
+actaneurocomms.biomedcentral.com                  1
+corrosionjournal.org                              1
+www.futuremedicine.com                            5
+advancedsearch2.virginmedia.com                   1
+www.jbc.org                                       163
+www.osapublishing.org                             335
+www.ajol.info                                     2
+www.emeraldinsight.com                            37
+journal.frontiersin.org                           16
+koreascience.or.kr                                1
+jem.rupress.org                                   2
+link.springer.com                                 1
+essays.biochemistry.org                           1
+dmd.aspetjournals.org                             1
+iovs.arvojournals.org                             4
+www.ejcancer.com                                  1
+www.febsletters.org                               19
+www.omicsonline.org                               2
+jmcb.oxfordjournals.org                           2
+humrep.oxfordjournals.org                         2
+jop.sagepub.com                                   1
+www.biogeosciences-discuss.net                    1
+www.cell.com                                      247
+www.asiaandro.com                                 1
+jba.sagepub.com                                   1
+www.jurology.com                                  1
+www.clinchem.org                                  2
+www.fasebj.org                                    10
+aac.asm.org                                       16
+www.bioscience.org                                1
+www.biochemsoctrans.org                           50
+www.impublications.com                            3
+www.intechopen.com                                1
+proceedings.spiedigitallibrary.org                155
+linkinghub.elsevier.com                           31
+www.eas-journal.org                               1
+www.mdpi.com                                      50
+ajpendo.physiology.org                            2
+www.mcponline.org                                 20
+stke.sciencemag.org                               7
+opticalengineering.spiedigitallibrary.org         2
+jphys.journaldephysique.org                       1
+www.jstor.org                                     4
+www.akademiai.com                                 4
+materconstrucc.revistas.csic.es                   1
+www.onepetro.org:443                              1
+gut.bmj.com                                       1
+adsabs.harvard.edu                                2
+cshprotocols.cshlp.org                            1
+papers.sae.org                                    2
+molpharm.aspetjournals.org                        3
+gbe.oxfordjournals.org                            1
+www.pnas.org                                      330
+cancerdiscovery.aacrjournals.org                  1
+www.hydrol-earth-syst-sci.net                     1
+ebooks.iospress.nl                                6
+content.iospress.com                              5
+stm.sciencemag.org                                2
+peds.oxfordjournals.org                           31
+www.mmnp-journal.org                              1
+www.e3s-conferences.org                           1
+clincancerres.aacrjournals.org                    1
+----------------------------------------------------------------------
+Scraped Publisher Breakdown:
+----------------------------------------------------------------------
+
+Most frequent publisher:                        rsc
+
+
+Publisher                                number of records
+Springer                                          642
+ScienceDirect                                     520
+Nature                                            88
+scientific.net                                    10
+Wiley                                             2328
+RoyalSociety                                      52
+jstage                                            23
+rsc                                               4394
+ACS                                               4153
+International Union of Crystallography            761
+iop                                               147
+American Physical Society                         573
+
+********************************************************************************************************************************************
+Analysis of scraping run performed at 12:12 13 December 2015
+**********************************************************************
+
+Total records parsed:                             20049
+Total records successfully collected:             13691
+Conversion rate:                                  68.2877%
+
+
+----------------------------------------------------------------------
+Losses Breakdown:
+----------------------------------------------------------------------
+
+Total No. of records not converted:               6358
+No. lost due to errors in collection:             1569
+No. lost due to request timeouts:                 0
+No. lost due to missing publisher info:           4789
+
+
+----------------------------------------------------------------------
+Collection Errors Breakdown:
+----------------------------------------------------------------------
+
+Most collection errors for publisher:           scitation.aip.org
+
+
+Publisher                                   no. of errors
+scitation.aip.org                                 992
+onlinelibrary.wiley.com                           179
+www.sciencedirect.com                             15
+rsif.royalsocietypublishing.org                   4
+pubs.rsc.org                                      31
+www.nature.com                                    151
+rspa.royalsocietypublishing.org                   3
+journals.aps.org                                  4
+pubs.acs.org                                      6
+iopscience.iop.org                                95
+link.springer.com                                 89
+
+
+----------------------------------------------------------------------
+Missing publisher Errors Breakdown:
+----------------------------------------------------------------------
+
+Most frequent missing publisher:                www.tandfonline.com
+
+
+Publisher                                number of records
+polipapers.upv.es                                 1
+journals.prous.com                                2
+bmjopen.bmj.com                                   1
+mlq.sagepub.com                                   1
+rsnr.royalsocietypublishing.org                   1
+www.minersoc.org                                  6
+www.medicaljournals.se                            2
+jvi.asm.org                                       8
+mbe.oxfordjournals.org                            3
+www.aanda.org                                     9
+journals.plos.org                                 215
+iai.asm.org                                       2
+www.atmos-chem-phys.net                           129
+www.tandfonline.com                               696
+rsbm.royalsocietypublishing.org                   2
+www.dovepress.com                                 1
+joe.endocrinology-journals.org                    2
+www.fsijournal.org                                2
+ajcn.nutrition.org                                2
+www.cherd.ichemejournals.com                      3
+jid.oxfordjournals.org                            1
+www.jlr.org                                       3
+www.medecinesciences.org                          1
+brain.oxfordjournals.org                          2
+pih.sagepub.com                                   6
+ijepr.avestia.com                                 1
+biomedicaloptics.spiedigitallibrary.org           7
+rnajournal.cshlp.org                              4
+rsfs.royalsocietypublishing.org                   3
+diabetes.diabetesjournals.org                     6
+physrev.physiology.org                            1
+www.atmos-meas-tech.net                           11
+www.jeos.org                                      2
+www.molbiolcell.org                               9
+www.ep.liu.se                                     1
+plankt.oxfordjournals.org                         5
+dmm.biologists.org                                3
+g3journal.org                                     1
+cshperspectives.cshlp.org                         6
+www.plantcell.org                                 9
+www.scirp.org                                     3
+rstb.royalsocietypublishing.org                   31
+elementascience.org                               1
+www.5z.com                                        1
+www.hindawi.com                                   19
+cccc.uochb.cas.cz                                 2
+advances.sciencemag.org                           1
+www.icevirtuallibrary.com                         4
+ec.asm.org                                        8
+www.biochemj.org                                  97
+www.heterocycles.jp                               1
+mr.crossref.org                                   3
+genome.cshlp.org                                  2
+www.jimmunol.org                                  7
+scitation.aip.org                                 1
+jes.ecsdl.org                                     12
+mnras.oxfordjournals.org                          19
+journals.ametsoc.org                              9
+www.ajnr.org                                      2
+pubs.rsc.org                                      3
+hyper.ahajournals.org                             1
+www.worldscientific.com                           28
+embomolmed.embopress.org                          2
+www.plantphysiol.org                              13
+dl.acm.org                                        25
+hip.sagepub.com                                   3
+www.scienceopen.com                               1
+jcb.sagepub.com                                   1
+www.journalofhospitalinfection.com                2
+mnrasl.oxfordjournals.org                         2
+aem.asm.org                                       6
+online.liebertpub.com                             7
+jxb.oxfordjournals.org                            13
+www.atmos-chem-phys-discuss.net                   16
+dev.biologists.org                                11
+jpet.aspetjournals.org                            3
+bja.oxfordjournals.org                            3
+www.sciencedirect.com                             1
+www.inderscience.com                              18
+f1000research.com                                 1
+ogst.ifpenergiesnouvelles.fr                      1
+genomea.asm.org                                   1
+mcb.asm.org                                       7
+www.annualreviews.org                             25
+apsjournals.apsnet.org                            6
+pt.wkhealth.com                                   9
+database.oxfordjournals.org                       1
+nar.oxfordjournals.org                            69
+bioinformatics.oxfordjournals.org                 13
+hmg.oxfordjournals.org                            7
+jcs.biologists.org                                19
+jb.oxfordjournals.org                             1
+www.ams.org                                       1
+www.crossref.org                                  80
+jphyscol.journaldephysique.org                    8
+actachemscand.org                                 2
+jcb.rupress.org                                   10
+symposia.biochemistry.org                         2
+rspb.royalsocietypublishing.org                   17
+glycob.oxfordjournals.org                         6
+www.jucs.org                                      2
+www.jneurosci.org                                 6
+ecst.ecsdl.org                                    3
+www.nanomedjournal.com                            2
+www.jurnalteknologi.utm.my                        1
+tobaccocontrol.bmj.com                            1
+jbx.sagepub.com                                   5
+www.maneyonline.com                               5
+amj.aom.org                                       1
+cellandbioscience.biomedcentral.com               1
+www.contactlensjournal.com                        2
+www.crcnetbase.com                                3
+mct.aacrjournals.org                              5
+rsob.royalsocietypublishing.org                   10
+www.the-cryosphere.net                            1
+sp.lyellcollection.org                            1
+www.nrcresearchpress.com                          23
+www.doiserbia.nb.rs                               1
+aob.oxfordjournals.org                            1
+jim.sagepub.com                                   1
+www.jacionline.org                                6
+ammin.geoscienceworld.org                         3
+www.eurekaselect.com                              35
+teamat.oxfordjournals.org                         1
+orgsyn.org                                        1
+mic.microbiologyresearch.org                      11
+jss.ecsdl.org                                     1
+physiolgenomics.physiology.org                    1
+rsta.royalsocietypublishing.org                   45
+esl.ecsdl.org                                     8
+www.igi-global.com                                23
+atvb.ahajournals.org                              2
+www.schweizerbart.de                              1
+ebooks.cambridge.org                              5
+jb.asm.org                                        16
+www.pdpdt-journal.com                             1
+ajpcell.physiology.org                            1
+jgv.microbiologyresearch.org                      2
+www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net1
+carcin.oxfordjournals.org                         4
+www.witpress.com                                  1
+heart.bmj.com                                     2
+www.thebonejournal.com                            1
+pubs.acs.org                                      3
+femsle.oxfordjournals.org                         3
+journals.humankinetics.com                        3
+symposium.cshlp.org                               1
+femsre.oxfordjournals.org                         2
+www.biogeosciences.net                            3
+www.publish.csiro.au                              26
+www.earth-syst-sci-data.net                       1
+elifesciences.org                                 7
+ieeexplore.ieee.org                               444
+booksandjournals.brillonline.com                  1
+mutage.oxfordjournals.org                         1
+thescipub.com                                     1
+physiologyonline.physiology.org                   2
+www.spandidos-publications.com                    1
+www.karger.com                                    5
+bioscience.oxfordjournals.org                     1
+tellusa.net                                       1
+www.ingentaconnect.com                            67
+hum.sagepub.com                                   2
+diglib.eg.org                                     1
+www.bloodjournal.org                              7
+acsm.revuesonline.com                             1
+www.matec-conferences.org                         1
+www.jdsjournal.com                                1
+pub.iapchem.org                                   1
+www.ijdb.ehu.es                                   1
+www.jci.org                                       3
+elements.geoscienceworld.org                      1
+www.future-science.com                            15
+www.wormbook.org                                  1
+www.jove.com                                      5
+ajprenal.physiology.org                           1
+www.beilstein-journals.org                        27
+jac.oxfordjournals.org                            3
+www.ajsonline.org                                 1
+www.sciencemag.org                                109
+emboj.embopress.org                               39
+genesdev.cshlp.org                                3
+biecoll.ub.uni-bielefeld.de                       1
+jme.sagepub.com                                   1
+msb.embopress.org                                 1
+search.ieice.org                                  2
+embor.embopress.org                               8
+trj.sagepub.com                                   1
+pps.sagepub.com                                   1
+jp4.journaldephysique.org                         4
+pig.sagepub.com                                   1
+digital-library.theiet.org                        5
+synapse.koreamed.org                              3
+cancerres.aacrjournals.org                        4
+www.int-res.com                                   3
+www.impactjournals.com                            1
+aqua.iwaponline.com                               1
+evodevojournal.biomedcentral.com                  1
+journals.iucr.org                                 1
+journals.cambridge.org                            43
+www.jle.com                                       1
+scfbm.biomedcentral.com                           2
+www.geosci-model-dev.net                          5
+hrcak.srce.hr                                     2
+www.jaim.in                                       1
+www.asianjournalofchemistry.co.in                 2
+www.clays.org                                     1
+cardiovascres.oxfordjournals.org                  2
+www.thieme-connect.de                             197
+ije.oxfordjournals.org                            1
+www.epj-conferences.org                           1
+doi.pangaea.de                                    1
+www.scielo.br                                     1
+www.bioscirep.org                                 2
+www.genetics.org                                  1
+www.wageningenacademic.com                        1
+ageing.oxfordjournals.org                         1
+www.ann-geophys.net                               4
+actaneurocomms.biomedcentral.com                  1
+corrosionjournal.org                              1
+www.futuremedicine.com                            5
+advancedsearch2.virginmedia.com                   1
+www.jbc.org                                       163
+www.osapublishing.org                             335
+www.ajol.info                                     2
+www.emeraldinsight.com                            37
+journal.frontiersin.org                           16
+koreascience.or.kr                                1
+jem.rupress.org                                   2
+link.springer.com                                 1
+essays.biochemistry.org                           1
+dmd.aspetjournals.org                             1
+iovs.arvojournals.org                             4
+www.ejcancer.com                                  1
+www.febsletters.org                               19
+www.omicsonline.org                               2
+jmcb.oxfordjournals.org                           2
+humrep.oxfordjournals.org                         2
+jop.sagepub.com                                   1
+www.biogeosciences-discuss.net                    1
+www.cell.com                                      247
+www.asiaandro.com                                 1
+jba.sagepub.com                                   1
+www.jurology.com                                  1
+www.clinchem.org                                  2
+www.fasebj.org                                    10
+aac.asm.org                                       16
+www.bioscience.org                                1
+www.biochemsoctrans.org                           50
+www.impublications.com                            3
+www.intechopen.com                                1
+proceedings.spiedigitallibrary.org                155
+linkinghub.elsevier.com                           31
+www.eas-journal.org                               1
+www.mdpi.com                                      50
+ajpendo.physiology.org                            2
+www.mcponline.org                                 20
+stke.sciencemag.org                               7
+opticalengineering.spiedigitallibrary.org         2
+jphys.journaldephysique.org                       1
+www.jstor.org                                     4
+www.akademiai.com                                 4
+materconstrucc.revistas.csic.es                   1
+www.onepetro.org:443                              1
+gut.bmj.com                                       1
+adsabs.harvard.edu                                2
+cshprotocols.cshlp.org                            1
+papers.sae.org                                    2
+molpharm.aspetjournals.org                        3
+gbe.oxfordjournals.org                            1
+www.pnas.org                                      330
+cancerdiscovery.aacrjournals.org                  1
+www.hydrol-earth-syst-sci.net                     1
+ebooks.iospress.nl                                6
+content.iospress.com                              5
+stm.sciencemag.org                                2
+peds.oxfordjournals.org                           31
+www.mmnp-journal.org                              1
+www.e3s-conferences.org                           1
+clincancerres.aacrjournals.org                    1
+----------------------------------------------------------------------
+Scraped Publisher Breakdown:
+----------------------------------------------------------------------
+
+Most frequent publisher:                        rsc
+
+
+Publisher                                number of records
+Springer                                          642
+ScienceDirect                                     520
+Nature                                            88
+scientific.net                                    10
+Wiley                                             2328
+RoyalSociety                                      52
+jstage                                            23
+rsc                                               4394
+ACS                                               4153
+International Union of Crystallography            761
+iop                                               147
+American Physical Society                         573
+
+********************************************************************************************************************************************
+Analysis of scraping run performed at 12:12 13 December 2015
+**********************************************************************
+
+Total records parsed:                             20049
+Total records successfully collected:             13691
+Conversion rate:                                  68.2877%
+
+
+----------------------------------------------------------------------
+Losses Breakdown:
+----------------------------------------------------------------------
+
+Total No. of records not converted:               6358
+No. lost due to errors in collection:             1569
+No. lost due to request timeouts:                 0
+No. lost due to missing publisher info:           4789
+
+
+----------------------------------------------------------------------
+Collection Errors Breakdown:
+----------------------------------------------------------------------
+
+Most collection errors for publisher:           scitation.aip.org
+
+
+Publisher                                   no. of errors
+scitation.aip.org                                 992
+onlinelibrary.wiley.com                           179
+www.sciencedirect.com                             15
+rsif.royalsocietypublishing.org                   4
+pubs.rsc.org                                      31
+www.nature.com                                    151
+rspa.royalsocietypublishing.org                   3
+journals.aps.org                                  4
+pubs.acs.org                                      6
+iopscience.iop.org                                95
+link.springer.com                                 89
+
+
+----------------------------------------------------------------------
+Missing publisher Errors Breakdown:
+----------------------------------------------------------------------
+
+Most frequent missing publisher:                www.tandfonline.com
+
+
+Publisher                                number of records
+polipapers.upv.es                                 1
+journals.prous.com                                2
+bmjopen.bmj.com                                   1
+mlq.sagepub.com                                   1
+rsnr.royalsocietypublishing.org                   1
+www.minersoc.org                                  6
+www.medicaljournals.se                            2
+jvi.asm.org                                       8
+mbe.oxfordjournals.org                            3
+www.aanda.org                                     9
+journals.plos.org                                 215
+iai.asm.org                                       2
+www.atmos-chem-phys.net                           129
+www.tandfonline.com                               696
+rsbm.royalsocietypublishing.org                   2
+www.dovepress.com                                 1
+joe.endocrinology-journals.org                    2
+www.fsijournal.org                                2
+ajcn.nutrition.org                                2
+www.cherd.ichemejournals.com                      3
+jid.oxfordjournals.org                            1
+www.jlr.org                                       3
+www.medecinesciences.org                          1
+brain.oxfordjournals.org                          2
+pih.sagepub.com                                   6
+ijepr.avestia.com                                 1
+biomedicaloptics.spiedigitallibrary.org           7
+rnajournal.cshlp.org                              4
+rsfs.royalsocietypublishing.org                   3
+diabetes.diabetesjournals.org                     6
+physrev.physiology.org                            1
+www.atmos-meas-tech.net                           11
+www.jeos.org                                      2
+www.molbiolcell.org                               9
+www.ep.liu.se                                     1
+plankt.oxfordjournals.org                         5
+dmm.biologists.org                                3
+g3journal.org                                     1
+cshperspectives.cshlp.org                         6
+www.plantcell.org                                 9
+www.scirp.org                                     3
+rstb.royalsocietypublishing.org                   31
+elementascience.org                               1
+www.5z.com                                        1
+www.hindawi.com                                   19
+cccc.uochb.cas.cz                                 2
+advances.sciencemag.org                           1
+www.icevirtuallibrary.com                         4
+ec.asm.org                                        8
+www.biochemj.org                                  97
+www.heterocycles.jp                               1
+mr.crossref.org                                   3
+genome.cshlp.org                                  2
+www.jimmunol.org                                  7
+scitation.aip.org                                 1
+jes.ecsdl.org                                     12
+mnras.oxfordjournals.org                          19
+journals.ametsoc.org                              9
+www.ajnr.org                                      2
+pubs.rsc.org                                      3
+hyper.ahajournals.org                             1
+www.worldscientific.com                           28
+embomolmed.embopress.org                          2
+www.plantphysiol.org                              13
+dl.acm.org                                        25
+hip.sagepub.com                                   3
+www.scienceopen.com                               1
+jcb.sagepub.com                                   1
+www.journalofhospitalinfection.com                2
+mnrasl.oxfordjournals.org                         2
+aem.asm.org                                       6
+online.liebertpub.com                             7
+jxb.oxfordjournals.org                            13
+www.atmos-chem-phys-discuss.net                   16
+dev.biologists.org                                11
+jpet.aspetjournals.org                            3
+bja.oxfordjournals.org                            3
+www.sciencedirect.com                             1
+www.inderscience.com                              18
+f1000research.com                                 1
+ogst.ifpenergiesnouvelles.fr                      1
+genomea.asm.org                                   1
+mcb.asm.org                                       7
+www.annualreviews.org                             25
+apsjournals.apsnet.org                            6
+pt.wkhealth.com                                   9
+database.oxfordjournals.org                       1
+nar.oxfordjournals.org                            69
+bioinformatics.oxfordjournals.org                 13
+hmg.oxfordjournals.org                            7
+jcs.biologists.org                                19
+jb.oxfordjournals.org                             1
+www.ams.org                                       1
+www.crossref.org                                  80
+jphyscol.journaldephysique.org                    8
+actachemscand.org                                 2
+jcb.rupress.org                                   10
+symposia.biochemistry.org                         2
+rspb.royalsocietypublishing.org                   17
+glycob.oxfordjournals.org                         6
+www.jucs.org                                      2
+www.jneurosci.org                                 6
+ecst.ecsdl.org                                    3
+www.nanomedjournal.com                            2
+www.jurnalteknologi.utm.my                        1
+tobaccocontrol.bmj.com                            1
+jbx.sagepub.com                                   5
+www.maneyonline.com                               5
+amj.aom.org                                       1
+cellandbioscience.biomedcentral.com               1
+www.contactlensjournal.com                        2
+www.crcnetbase.com                                3
+mct.aacrjournals.org                              5
+rsob.royalsocietypublishing.org                   10
+www.the-cryosphere.net                            1
+sp.lyellcollection.org                            1
+www.nrcresearchpress.com                          23
+www.doiserbia.nb.rs                               1
+aob.oxfordjournals.org                            1
+jim.sagepub.com                                   1
+www.jacionline.org                                6
+ammin.geoscienceworld.org                         3
+www.eurekaselect.com                              35
+teamat.oxfordjournals.org                         1
+orgsyn.org                                        1
+mic.microbiologyresearch.org                      11
+jss.ecsdl.org                                     1
+physiolgenomics.physiology.org                    1
+rsta.royalsocietypublishing.org                   45
+esl.ecsdl.org                                     8
+www.igi-global.com                                23
+atvb.ahajournals.org                              2
+www.schweizerbart.de                              1
+ebooks.cambridge.org                              5
+jb.asm.org                                        16
+www.pdpdt-journal.com                             1
+ajpcell.physiology.org                            1
+jgv.microbiologyresearch.org                      2
+www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net1
+carcin.oxfordjournals.org                         4
+www.witpress.com                                  1
+heart.bmj.com                                     2
+www.thebonejournal.com                            1
+pubs.acs.org                                      3
+femsle.oxfordjournals.org                         3
+journals.humankinetics.com                        3
+symposium.cshlp.org                               1
+femsre.oxfordjournals.org                         2
+www.biogeosciences.net                            3
+www.publish.csiro.au                              26
+www.earth-syst-sci-data.net                       1
+elifesciences.org                                 7
+ieeexplore.ieee.org                               444
+booksandjournals.brillonline.com                  1
+mutage.oxfordjournals.org                         1
+thescipub.com                                     1
+physiologyonline.physiology.org                   2
+www.spandidos-publications.com                    1
+www.karger.com                                    5
+bioscience.oxfordjournals.org                     1
+tellusa.net                                       1
+www.ingentaconnect.com                            67
+hum.sagepub.com                                   2
+diglib.eg.org                                     1
+www.bloodjournal.org                              7
+acsm.revuesonline.com                             1
+www.matec-conferences.org                         1
+www.jdsjournal.com                                1
+pub.iapchem.org                                   1
+www.ijdb.ehu.es                                   1
+www.jci.org                                       3
+elements.geoscienceworld.org                      1
+www.future-science.com                            15
+www.wormbook.org                                  1
+www.jove.com                                      5
+ajprenal.physiology.org                           1
+www.beilstein-journals.org                        27
+jac.oxfordjournals.org                            3
+www.ajsonline.org                                 1
+www.sciencemag.org                                109
+emboj.embopress.org                               39
+genesdev.cshlp.org                                3
+biecoll.ub.uni-bielefeld.de                       1
+jme.sagepub.com                                   1
+msb.embopress.org                                 1
+search.ieice.org                                  2
+embor.embopress.org                               8
+trj.sagepub.com                                   1
+pps.sagepub.com                                   1
+jp4.journaldephysique.org                         4
+pig.sagepub.com                                   1
+digital-library.theiet.org                        5
+synapse.koreamed.org                              3
+cancerres.aacrjournals.org                        4
+www.int-res.com                                   3
+www.impactjournals.com                            1
+aqua.iwaponline.com                               1
+evodevojournal.biomedcentral.com                  1
+journals.iucr.org                                 1
+journals.cambridge.org                            43
+www.jle.com                                       1
+scfbm.biomedcentral.com                           2
+www.geosci-model-dev.net                          5
+hrcak.srce.hr                                     2
+www.jaim.in                                       1
+www.asianjournalofchemistry.co.in                 2
+www.clays.org                                     1
+cardiovascres.oxfordjournals.org                  2
+www.thieme-connect.de                             197
+ije.oxfordjournals.org                            1
+www.epj-conferences.org                           1
+doi.pangaea.de                                    1
+www.scielo.br                                     1
+www.bioscirep.org                                 2
+www.genetics.org                                  1
+www.wageningenacademic.com                        1
+ageing.oxfordjournals.org                         1
+www.ann-geophys.net                               4
+actaneurocomms.biomedcentral.com                  1
+corrosionjournal.org                              1
+www.futuremedicine.com                            5
+advancedsearch2.virginmedia.com                   1
+www.jbc.org                                       163
+www.osapublishing.org                             335
+www.ajol.info                                     2
+www.emeraldinsight.com                            37
+journal.frontiersin.org                           16
+koreascience.or.kr                                1
+jem.rupress.org                                   2
+link.springer.com                                 1
+essays.biochemistry.org                           1
+dmd.aspetjournals.org                             1
+iovs.arvojournals.org                             4
+www.ejcancer.com                                  1
+www.febsletters.org                               19
+www.omicsonline.org                               2
+jmcb.oxfordjournals.org                           2
+humrep.oxfordjournals.org                         2
+jop.sagepub.com                                   1
+www.biogeosciences-discuss.net                    1
+www.cell.com                                      247
+www.asiaandro.com                                 1
+jba.sagepub.com                                   1
+www.jurology.com                                  1
+www.clinchem.org                                  2
+www.fasebj.org                                    10
+aac.asm.org                                       16
+www.bioscience.org                                1
+www.biochemsoctrans.org                           50
+www.impublications.com                            3
+www.intechopen.com                                1
+proceedings.spiedigitallibrary.org                155
+linkinghub.elsevier.com                           31
+www.eas-journal.org                               1
+www.mdpi.com                                      50
+ajpendo.physiology.org                            2
+www.mcponline.org                                 20
+stke.sciencemag.org                               7
+opticalengineering.spiedigitallibrary.org         2
+jphys.journaldephysique.org                       1
+www.jstor.org                                     4
+www.akademiai.com                                 4
+materconstrucc.revistas.csic.es                   1
+www.onepetro.org:443                              1
+gut.bmj.com                                       1
+adsabs.harvard.edu                                2
+cshprotocols.cshlp.org                            1
+papers.sae.org                                    2
+molpharm.aspetjournals.org                        3
+gbe.oxfordjournals.org                            1
+www.pnas.org                                      330
+cancerdiscovery.aacrjournals.org                  1
+www.hydrol-earth-syst-sci.net                     1
+ebooks.iospress.nl                                6
+content.iospress.com                              5
+stm.sciencemag.org                                2
+peds.oxfordjournals.org                           31
+www.mmnp-journal.org                              1
+www.e3s-conferences.org                           1
+clincancerres.aacrjournals.org                    1
+----------------------------------------------------------------------
+Scraped Publisher Breakdown:
+----------------------------------------------------------------------
+
+Most frequent publisher:                        rsc
+
+
+Publisher                                number of records
+Springer                                          642
+ScienceDirect                                     520
+Nature                                            88
+scientific.net                                    10
+Wiley                                             2328
+RoyalSociety                                      52
+jstage                                            23
+rsc                                               4394
+ACS                                               4153
+International Union of Crystallography            761
+iop                                               147
+American Physical Society                         573
+
+********************************************************************************************************************************************
+Analysis of scraping run performed at 12:12 13 December 2015
+**********************************************************************
+
+Total records parsed:                             20049
+Total records successfully collected:             13691
+Conversion rate:                                  68.2877%
+
+
+----------------------------------------------------------------------
+Losses Breakdown:
+----------------------------------------------------------------------
+
+Total No. of records not converted:               6358
+No. lost due to errors in collection:             1569
+No. lost due to request timeouts:                 0
+No. lost due to missing publisher info:           4789
+
+
+----------------------------------------------------------------------
+Collection Errors Breakdown:
+----------------------------------------------------------------------
+
+Most collection errors for publisher:           scitation.aip.org
+
+
+Publisher                                   no. of errors
+scitation.aip.org                                 992
+onlinelibrary.wiley.com                           179
+www.sciencedirect.com                             15
+rsif.royalsocietypublishing.org                   4
+pubs.rsc.org                                      31
+www.nature.com                                    151
+rspa.royalsocietypublishing.org                   3
+journals.aps.org                                  4
+pubs.acs.org                                      6
+iopscience.iop.org                                95
+link.springer.com                                 89
+
+
+----------------------------------------------------------------------
+Missing publisher Errors Breakdown:
+----------------------------------------------------------------------
+
+Most frequent missing publisher:                www.tandfonline.com
+
+
+Publisher                                number of records
+polipapers.upv.es                                 1
+journals.prous.com                                2
+bmjopen.bmj.com                                   1
+mlq.sagepub.com                                   1
+rsnr.royalsocietypublishing.org                   1
+www.minersoc.org                                  6
+www.medicaljournals.se                            2
+jvi.asm.org                                       8
+mbe.oxfordjournals.org                            3
+www.aanda.org                                     9
+journals.plos.org                                 215
+iai.asm.org                                       2
+www.atmos-chem-phys.net                           129
+www.tandfonline.com                               696
+rsbm.royalsocietypublishing.org                   2
+www.dovepress.com                                 1
+joe.endocrinology-journals.org                    2
+www.fsijournal.org                                2
+ajcn.nutrition.org                                2
+www.cherd.ichemejournals.com                      3
+jid.oxfordjournals.org                            1
+www.jlr.org                                       3
+www.medecinesciences.org                          1
+brain.oxfordjournals.org                          2
+pih.sagepub.com                                   6
+ijepr.avestia.com                                 1
+biomedicaloptics.spiedigitallibrary.org           7
+rnajournal.cshlp.org                              4
+rsfs.royalsocietypublishing.org                   3
+diabetes.diabetesjournals.org                     6
+physrev.physiology.org                            1
+www.atmos-meas-tech.net                           11
+www.jeos.org                                      2
+www.molbiolcell.org                               9
+www.ep.liu.se                                     1
+plankt.oxfordjournals.org                         5
+dmm.biologists.org                                3
+g3journal.org                                     1
+cshperspectives.cshlp.org                         6
+www.plantcell.org                                 9
+www.scirp.org                                     3
+rstb.royalsocietypublishing.org                   31
+elementascience.org                               1
+www.5z.com                                        1
+www.hindawi.com                                   19
+cccc.uochb.cas.cz                                 2
+advances.sciencemag.org                           1
+www.icevirtuallibrary.com                         4
+ec.asm.org                                        8
+www.biochemj.org                                  97
+www.heterocycles.jp                               1
+mr.crossref.org                                   3
+genome.cshlp.org                                  2
+www.jimmunol.org                                  7
+scitation.aip.org                                 1
+jes.ecsdl.org                                     12
+mnras.oxfordjournals.org                          19
+journals.ametsoc.org                              9
+www.ajnr.org                                      2
+pubs.rsc.org                                      3
+hyper.ahajournals.org                             1
+www.worldscientific.com                           28
+embomolmed.embopress.org                          2
+www.plantphysiol.org                              13
+dl.acm.org                                        25
+hip.sagepub.com                                   3
+www.scienceopen.com                               1
+jcb.sagepub.com                                   1
+www.journalofhospitalinfection.com                2
+mnrasl.oxfordjournals.org                         2
+aem.asm.org                                       6
+online.liebertpub.com                             7
+jxb.oxfordjournals.org                            13
+www.atmos-chem-phys-discuss.net                   16
+dev.biologists.org                                11
+jpet.aspetjournals.org                            3
+bja.oxfordjournals.org                            3
+www.sciencedirect.com                             1
+www.inderscience.com                              18
+f1000research.com                                 1
+ogst.ifpenergiesnouvelles.fr                      1
+genomea.asm.org                                   1
+mcb.asm.org                                       7
+www.annualreviews.org                             25
+apsjournals.apsnet.org                            6
+pt.wkhealth.com                                   9
+database.oxfordjournals.org                       1
+nar.oxfordjournals.org                            69
+bioinformatics.oxfordjournals.org                 13
+hmg.oxfordjournals.org                            7
+jcs.biologists.org                                19
+jb.oxfordjournals.org                             1
+www.ams.org                                       1
+www.crossref.org                                  80
+jphyscol.journaldephysique.org                    8
+actachemscand.org                                 2
+jcb.rupress.org                                   10
+symposia.biochemistry.org                         2
+rspb.royalsocietypublishing.org                   17
+glycob.oxfordjournals.org                         6
+www.jucs.org                                      2
+www.jneurosci.org                                 6
+ecst.ecsdl.org                                    3
+www.nanomedjournal.com                            2
+www.jurnalteknologi.utm.my                        1
+tobaccocontrol.bmj.com                            1
+jbx.sagepub.com                                   5
+www.maneyonline.com                               5
+amj.aom.org                                       1
+cellandbioscience.biomedcentral.com               1
+www.contactlensjournal.com                        2
+www.crcnetbase.com                                3
+mct.aacrjournals.org                              5
+rsob.royalsocietypublishing.org                   10
+www.the-cryosphere.net                            1
+sp.lyellcollection.org                            1
+www.nrcresearchpress.com                          23
+www.doiserbia.nb.rs                               1
+aob.oxfordjournals.org                            1
+jim.sagepub.com                                   1
+www.jacionline.org                                6
+ammin.geoscienceworld.org                         3
+www.eurekaselect.com                              35
+teamat.oxfordjournals.org                         1
+orgsyn.org                                        1
+mic.microbiologyresearch.org                      11
+jss.ecsdl.org                                     1
+physiolgenomics.physiology.org                    1
+rsta.royalsocietypublishing.org                   45
+esl.ecsdl.org                                     8
+www.igi-global.com                                23
+atvb.ahajournals.org                              2
+www.schweizerbart.de                              1
+ebooks.cambridge.org                              5
+jb.asm.org                                        16
+www.pdpdt-journal.com                             1
+ajpcell.physiology.org                            1
+jgv.microbiologyresearch.org                      2
+www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net1
+carcin.oxfordjournals.org                         4
+www.witpress.com                                  1
+heart.bmj.com                                     2
+www.thebonejournal.com                            1
+pubs.acs.org                                      3
+femsle.oxfordjournals.org                         3
+journals.humankinetics.com                        3
+symposium.cshlp.org                               1
+femsre.oxfordjournals.org                         2
+www.biogeosciences.net                            3
+www.publish.csiro.au                              26
+www.earth-syst-sci-data.net                       1
+elifesciences.org                                 7
+ieeexplore.ieee.org                               444
+booksandjournals.brillonline.com                  1
+mutage.oxfordjournals.org                         1
+thescipub.com                                     1
+physiologyonline.physiology.org                   2
+www.spandidos-publications.com                    1
+www.karger.com                                    5
+bioscience.oxfordjournals.org                     1
+tellusa.net                                       1
+www.ingentaconnect.com                            67
+hum.sagepub.com                                   2
+diglib.eg.org                                     1
+www.bloodjournal.org                              7
+acsm.revuesonline.com                             1
+www.matec-conferences.org                         1
+www.jdsjournal.com                                1
+pub.iapchem.org                                   1
+www.ijdb.ehu.es                                   1
+www.jci.org                                       3
+elements.geoscienceworld.org                      1
+www.future-science.com                            15
+www.wormbook.org                                  1
+www.jove.com                                      5
+ajprenal.physiology.org                           1
+www.beilstein-journals.org                        27
+jac.oxfordjournals.org                            3
+www.ajsonline.org                                 1
+www.sciencemag.org                                109
+emboj.embopress.org                               39
+genesdev.cshlp.org                                3
+biecoll.ub.uni-bielefeld.de                       1
+jme.sagepub.com                                   1
+msb.embopress.org                                 1
+search.ieice.org                                  2
+embor.embopress.org                               8
+trj.sagepub.com                                   1
+pps.sagepub.com                                   1
+jp4.journaldephysique.org                         4
+pig.sagepub.com                                   1
+digital-library.theiet.org                        5
+synapse.koreamed.org                              3
+cancerres.aacrjournals.org                        4
+www.int-res.com                                   3
+www.impactjournals.com                            1
+aqua.iwaponline.com                               1
+evodevojournal.biomedcentral.com                  1
+journals.iucr.org                                 1
+journals.cambridge.org                            43
+www.jle.com                                       1
+scfbm.biomedcentral.com                           2
+www.geosci-model-dev.net                          5
+hrcak.srce.hr                                     2
+www.jaim.in                                       1
+www.asianjournalofchemistry.co.in                 2
+www.clays.org                                     1
+cardiovascres.oxfordjournals.org                  2
+www.thieme-connect.de                             197
+ije.oxfordjournals.org                            1
+www.epj-conferences.org                           1
+doi.pangaea.de                                    1
+www.scielo.br                                     1
+www.bioscirep.org                                 2
+www.genetics.org                                  1
+www.wageningenacademic.com                        1
+ageing.oxfordjournals.org                         1
+www.ann-geophys.net                               4
+actaneurocomms.biomedcentral.com                  1
+corrosionjournal.org                              1
+www.futuremedicine.com                            5
+advancedsearch2.virginmedia.com                   1
+www.jbc.org                                       163
+www.osapublishing.org                             335
+www.ajol.info                                     2
+www.emeraldinsight.com                            37
+journal.frontiersin.org                           16
+koreascience.or.kr                                1
+jem.rupress.org                                   2
+link.springer.com                                 1
+essays.biochemistry.org                           1
+dmd.aspetjournals.org                             1
+iovs.arvojournals.org                             4
+www.ejcancer.com                                  1
+www.febsletters.org                               19
+www.omicsonline.org                               2
+jmcb.oxfordjournals.org                           2
+humrep.oxfordjournals.org                         2
+jop.sagepub.com                                   1
+www.biogeosciences-discuss.net                    1
+www.cell.com                                      247
+www.asiaandro.com                                 1
+jba.sagepub.com                                   1
+www.jurology.com                                  1
+www.clinchem.org                                  2
+www.fasebj.org                                    10
+aac.asm.org                                       16
+www.bioscience.org                                1
+www.biochemsoctrans.org                           50
+www.impublications.com                            3
+www.intechopen.com                                1
+proceedings.spiedigitallibrary.org                155
+linkinghub.elsevier.com                           31
+www.eas-journal.org                               1
+www.mdpi.com                                      50
+ajpendo.physiology.org                            2
+www.mcponline.org                                 20
+stke.sciencemag.org                               7
+opticalengineering.spiedigitallibrary.org         2
+jphys.journaldephysique.org                       1
+www.jstor.org                                     4
+www.akademiai.com                                 4
+materconstrucc.revistas.csic.es                   1
+www.onepetro.org:443                              1
+gut.bmj.com                                       1
+adsabs.harvard.edu                                2
+cshprotocols.cshlp.org                            1
+papers.sae.org                                    2
+molpharm.aspetjournals.org                        3
+gbe.oxfordjournals.org                            1
+www.pnas.org                                      330
+cancerdiscovery.aacrjournals.org                  1
+www.hydrol-earth-syst-sci.net                     1
+ebooks.iospress.nl                                6
+content.iospress.com                              5
+stm.sciencemag.org                                2
+peds.oxfordjournals.org                           31
+www.mmnp-journal.org                              1
+www.e3s-conferences.org                           1
+clincancerres.aacrjournals.org                    1
+----------------------------------------------------------------------
+Scraped Publisher Breakdown:
+----------------------------------------------------------------------
+
+Most frequent publisher:                        rsc
+
+
+Publisher                                number of records
+Springer                                          642
+ScienceDirect                                     520
+Nature                                            88
+scientific.net                                    10
+Wiley                                             2328
+RoyalSociety                                      52
+jstage                                            23
+rsc                                               4394
+ACS                                               4153
+International Union of Crystallography            761
+iop                                               147
+American Physical Society                         573
+
+********************************************************************************************************************************************
+Analysis of scraping run performed at 12:12 13 December 2015
+**********************************************************************
+
+Total records parsed:                             20049
+Total records successfully collected:             13691
+Conversion rate:                                  68.2877%
+
+
+----------------------------------------------------------------------
+Losses Breakdown:
+----------------------------------------------------------------------
+
+Total No. of records not converted:               6358
+No. lost due to errors in collection:             1569
+No. lost due to request timeouts:                 0
+No. lost due to missing publisher info:           4789
+
+
+----------------------------------------------------------------------
+Collection Errors Breakdown:
+----------------------------------------------------------------------
+
+Most collection errors for publisher:           scitation.aip.org
+
+
+Publisher                                   no. of errors
+scitation.aip.org                                 992
+onlinelibrary.wiley.com                           179
+www.sciencedirect.com                             15
+rsif.royalsocietypublishing.org                   4
+pubs.rsc.org                                      31
+www.nature.com                                    151
+rspa.royalsocietypublishing.org                   3
+journals.aps.org                                  4
+pubs.acs.org                                      6
+iopscience.iop.org                                95
+link.springer.com                                 89
+
+
+----------------------------------------------------------------------
+Missing publisher Errors Breakdown:
+----------------------------------------------------------------------
+
+Most frequent missing publisher:                www.tandfonline.com
+
+
+Publisher                                number of records
+polipapers.upv.es                                 1
+journals.prous.com                                2
+bmjopen.bmj.com                                   1
+mlq.sagepub.com                                   1
+rsnr.royalsocietypublishing.org                   1
+www.minersoc.org                                  6
+www.medicaljournals.se                            2
+jvi.asm.org                                       8
+mbe.oxfordjournals.org                            3
+www.aanda.org                                     9
+journals.plos.org                                 215
+iai.asm.org                                       2
+www.atmos-chem-phys.net                           129
+www.tandfonline.com                               696
+rsbm.royalsocietypublishing.org                   2
+www.dovepress.com                                 1
+joe.endocrinology-journals.org                    2
+www.fsijournal.org                                2
+ajcn.nutrition.org                                2
+www.cherd.ichemejournals.com                      3
+jid.oxfordjournals.org                            1
+www.jlr.org                                       3
+www.medecinesciences.org                          1
+brain.oxfordjournals.org                          2
+pih.sagepub.com                                   6
+ijepr.avestia.com                                 1
+biomedicaloptics.spiedigitallibrary.org           7
+rnajournal.cshlp.org                              4
+rsfs.royalsocietypublishing.org                   3
+diabetes.diabetesjournals.org                     6
+physrev.physiology.org                            1
+www.atmos-meas-tech.net                           11
+www.jeos.org                                      2
+www.molbiolcell.org                               9
+www.ep.liu.se                                     1
+plankt.oxfordjournals.org                         5
+dmm.biologists.org                                3
+g3journal.org                                     1
+cshperspectives.cshlp.org                         6
+www.plantcell.org                                 9
+www.scirp.org                                     3
+rstb.royalsocietypublishing.org                   31
+elementascience.org                               1
+www.5z.com                                        1
+www.hindawi.com                                   19
+cccc.uochb.cas.cz                                 2
+advances.sciencemag.org                           1
+www.icevirtuallibrary.com                         4
+ec.asm.org                                        8
+www.biochemj.org                                  97
+www.heterocycles.jp                               1
+mr.crossref.org                                   3
+genome.cshlp.org                                  2
+www.jimmunol.org                                  7
+scitation.aip.org                                 1
+jes.ecsdl.org                                     12
+mnras.oxfordjournals.org                          19
+journals.ametsoc.org                              9
+www.ajnr.org                                      2
+pubs.rsc.org                                      3
+hyper.ahajournals.org                             1
+www.worldscientific.com                           28
+embomolmed.embopress.org                          2
+www.plantphysiol.org                              13
+dl.acm.org                                        25
+hip.sagepub.com                                   3
+www.scienceopen.com                               1
+jcb.sagepub.com                                   1
+www.journalofhospitalinfection.com                2
+mnrasl.oxfordjournals.org                         2
+aem.asm.org                                       6
+online.liebertpub.com                             7
+jxb.oxfordjournals.org                            13
+www.atmos-chem-phys-discuss.net                   16
+dev.biologists.org                                11
+jpet.aspetjournals.org                            3
+bja.oxfordjournals.org                            3
+www.sciencedirect.com                             1
+www.inderscience.com                              18
+f1000research.com                                 1
+ogst.ifpenergiesnouvelles.fr                      1
+genomea.asm.org                                   1
+mcb.asm.org                                       7
+www.annualreviews.org                             25
+apsjournals.apsnet.org                            6
+pt.wkhealth.com                                   9
+database.oxfordjournals.org                       1
+nar.oxfordjournals.org                            69
+bioinformatics.oxfordjournals.org                 13
+hmg.oxfordjournals.org                            7
+jcs.biologists.org                                19
+jb.oxfordjournals.org                             1
+www.ams.org                                       1
+www.crossref.org                                  80
+jphyscol.journaldephysique.org                    8
+actachemscand.org                                 2
+jcb.rupress.org                                   10
+symposia.biochemistry.org                         2
+rspb.royalsocietypublishing.org                   17
+glycob.oxfordjournals.org                         6
+www.jucs.org                                      2
+www.jneurosci.org                                 6
+ecst.ecsdl.org                                    3
+www.nanomedjournal.com                            2
+www.jurnalteknologi.utm.my                        1
+tobaccocontrol.bmj.com                            1
+jbx.sagepub.com                                   5
+www.maneyonline.com                               5
+amj.aom.org                                       1
+cellandbioscience.biomedcentral.com               1
+www.contactlensjournal.com                        2
+www.crcnetbase.com                                3
+mct.aacrjournals.org                              5
+rsob.royalsocietypublishing.org                   10
+www.the-cryosphere.net                            1
+sp.lyellcollection.org                            1
+www.nrcresearchpress.com                          23
+www.doiserbia.nb.rs                               1
+aob.oxfordjournals.org                            1
+jim.sagepub.com                                   1
+www.jacionline.org                                6
+ammin.geoscienceworld.org                         3
+www.eurekaselect.com                              35
+teamat.oxfordjournals.org                         1
+orgsyn.org                                        1
+mic.microbiologyresearch.org                      11
+jss.ecsdl.org                                     1
+physiolgenomics.physiology.org                    1
+rsta.royalsocietypublishing.org                   45
+esl.ecsdl.org                                     8
+www.igi-global.com                                23
+atvb.ahajournals.org                              2
+www.schweizerbart.de                              1
+ebooks.cambridge.org                              5
+jb.asm.org                                        16
+www.pdpdt-journal.com                             1
+ajpcell.physiology.org                            1
+jgv.microbiologyresearch.org                      2
+www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net1
+carcin.oxfordjournals.org                         4
+www.witpress.com                                  1
+heart.bmj.com                                     2
+www.thebonejournal.com                            1
+pubs.acs.org                                      3
+femsle.oxfordjournals.org                         3
+journals.humankinetics.com                        3
+symposium.cshlp.org                               1
+femsre.oxfordjournals.org                         2
+www.biogeosciences.net                            3
+www.publish.csiro.au                              26
+www.earth-syst-sci-data.net                       1
+elifesciences.org                                 7
+ieeexplore.ieee.org                               444
+booksandjournals.brillonline.com                  1
+mutage.oxfordjournals.org                         1
+thescipub.com                                     1
+physiologyonline.physiology.org                   2
+www.spandidos-publications.com                    1
+www.karger.com                                    5
+bioscience.oxfordjournals.org                     1
+tellusa.net                                       1
+www.ingentaconnect.com                            67
+hum.sagepub.com                                   2
+diglib.eg.org                                     1
+www.bloodjournal.org                              7
+acsm.revuesonline.com                             1
+www.matec-conferences.org                         1
+www.jdsjournal.com                                1
+pub.iapchem.org                                   1
+www.ijdb.ehu.es                                   1
+www.jci.org                                       3
+elements.geoscienceworld.org                      1
+www.future-science.com                            15
+www.wormbook.org                                  1
+www.jove.com                                      5
+ajprenal.physiology.org                           1
+www.beilstein-journals.org                        27
+jac.oxfordjournals.org                            3
+www.ajsonline.org                                 1
+www.sciencemag.org                                109
+emboj.embopress.org                               39
+genesdev.cshlp.org                                3
+biecoll.ub.uni-bielefeld.de                       1
+jme.sagepub.com                                   1
+msb.embopress.org                                 1
+search.ieice.org                                  2
+embor.embopress.org                               8
+trj.sagepub.com                                   1
+pps.sagepub.com                                   1
+jp4.journaldephysique.org                         4
+pig.sagepub.com                                   1
+digital-library.theiet.org                        5
+synapse.koreamed.org                              3
+cancerres.aacrjournals.org                        4
+www.int-res.com                                   3
+www.impactjournals.com                            1
+aqua.iwaponline.com                               1
+evodevojournal.biomedcentral.com                  1
+journals.iucr.org                                 1
+journals.cambridge.org                            43
+www.jle.com                                       1
+scfbm.biomedcentral.com                           2
+www.geosci-model-dev.net                          5
+hrcak.srce.hr                                     2
+www.jaim.in                                       1
+www.asianjournalofchemistry.co.in                 2
+www.clays.org                                     1
+cardiovascres.oxfordjournals.org                  2
+www.thieme-connect.de                             197
+ije.oxfordjournals.org                            1
+www.epj-conferences.org                           1
+doi.pangaea.de                                    1
+www.scielo.br                                     1
+www.bioscirep.org                                 2
+www.genetics.org                                  1
+www.wageningenacademic.com                        1
+ageing.oxfordjournals.org                         1
+www.ann-geophys.net                               4
+actaneurocomms.biomedcentral.com                  1
+corrosionjournal.org                              1
+www.futuremedicine.com                            5
+advancedsearch2.virginmedia.com                   1
+www.jbc.org                                       163
+www.osapublishing.org                             335
+www.ajol.info                                     2
+www.emeraldinsight.com                            37
+journal.frontiersin.org                           16
+koreascience.or.kr                                1
+jem.rupress.org                                   2
+link.springer.com                                 1
+essays.biochemistry.org                           1
+dmd.aspetjournals.org                             1
+iovs.arvojournals.org                             4
+www.ejcancer.com                                  1
+www.febsletters.org                               19
+www.omicsonline.org                               2
+jmcb.oxfordjournals.org                           2
+humrep.oxfordjournals.org                         2
+jop.sagepub.com                                   1
+www.biogeosciences-discuss.net                    1
+www.cell.com                                      247
+www.asiaandro.com                                 1
+jba.sagepub.com                                   1
+www.jurology.com                                  1
+www.clinchem.org                                  2
+www.fasebj.org                                    10
+aac.asm.org                                       16
+www.bioscience.org                                1
+www.biochemsoctrans.org                           50
+www.impublications.com                            3
+www.intechopen.com                                1
+proceedings.spiedigitallibrary.org                155
+linkinghub.elsevier.com                           31
+www.eas-journal.org                               1
+www.mdpi.com                                      50
+ajpendo.physiology.org                            2
+www.mcponline.org                                 20
+stke.sciencemag.org                               7
+opticalengineering.spiedigitallibrary.org         2
+jphys.journaldephysique.org                       1
+www.jstor.org                                     4
+www.akademiai.com                                 4
+materconstrucc.revistas.csic.es                   1
+www.onepetro.org:443                              1
+gut.bmj.com                                       1
+adsabs.harvard.edu                                2
+cshprotocols.cshlp.org                            1
+papers.sae.org                                    2
+molpharm.aspetjournals.org                        3
+gbe.oxfordjournals.org                            1
+www.pnas.org                                      330
+cancerdiscovery.aacrjournals.org                  1
+www.hydrol-earth-syst-sci.net                     1
+ebooks.iospress.nl                                6
+content.iospress.com                              5
+stm.sciencemag.org                                2
+peds.oxfordjournals.org                           31
+www.mmnp-journal.org                              1
+www.e3s-conferences.org                           1
+clincancerres.aacrjournals.org                    1
+----------------------------------------------------------------------
+Scraped Publisher Breakdown:
+----------------------------------------------------------------------
+
+Most frequent publisher:                        rsc
+
+
+Publisher                                number of records
+Springer                                          642
+ScienceDirect                                     520
+Nature                                            88
+scientific.net                                    10
+Wiley                                             2328
+RoyalSociety                                      52
+jstage                                            23
+rsc                                               4394
+ACS                                               4153
+International Union of Crystallography            761
+iop                                               147
+American Physical Society                         573
+
+********************************************************************************************************************************************
+Analysis of scraping run performed at 12:12 13 December 2015
+**********************************************************************
+
+Total records parsed:                             20049
+Total records successfully collected:             13691
+Conversion rate:                                  68.2877%
+
+
+----------------------------------------------------------------------
+Losses Breakdown:
+----------------------------------------------------------------------
+
+Total No. of records not converted:               6358
+No. lost due to errors in collection:             1569
+No. lost due to request timeouts:                 0
+No. lost due to missing publisher info:           4789
+
+
+----------------------------------------------------------------------
+Collection Errors Breakdown:
+----------------------------------------------------------------------
+
+Most collection errors for publisher:           scitation.aip.org
+
+
+Publisher                                   no. of errors
+scitation.aip.org                                 992
+onlinelibrary.wiley.com                           179
+www.sciencedirect.com                             15
+rsif.royalsocietypublishing.org                   4
+pubs.rsc.org                                      31
+www.nature.com                                    151
+rspa.royalsocietypublishing.org                   3
+journals.aps.org                                  4
+pubs.acs.org                                      6
+iopscience.iop.org                                95
+link.springer.com                                 89
+
+
+----------------------------------------------------------------------
+Missing publisher Errors Breakdown:
+----------------------------------------------------------------------
+
+Most frequent missing publisher:                www.tandfonline.com
+
+
+Publisher                                number of records
+polipapers.upv.es                                 1
+journals.prous.com                                2
+bmjopen.bmj.com                                   1
+mlq.sagepub.com                                   1
+rsnr.royalsocietypublishing.org                   1
+www.minersoc.org                                  6
+www.medicaljournals.se                            2
+jvi.asm.org                                       8
+mbe.oxfordjournals.org                            3
+www.aanda.org                                     9
+journals.plos.org                                 215
+iai.asm.org                                       2
+www.atmos-chem-phys.net                           129
+www.tandfonline.com                               696
+rsbm.royalsocietypublishing.org                   2
+www.dovepress.com                                 1
+joe.endocrinology-journals.org                    2
+www.fsijournal.org                                2
+ajcn.nutrition.org                                2
+www.cherd.ichemejournals.com                      3
+jid.oxfordjournals.org                            1
+www.jlr.org                                       3
+www.medecinesciences.org                          1
+brain.oxfordjournals.org                          2
+pih.sagepub.com                                   6
+ijepr.avestia.com                                 1
+biomedicaloptics.spiedigitallibrary.org           7
+rnajournal.cshlp.org                              4
+rsfs.royalsocietypublishing.org                   3
+diabetes.diabetesjournals.org                     6
+physrev.physiology.org                            1
+www.atmos-meas-tech.net                           11
+www.jeos.org                                      2
+www.molbiolcell.org                               9
+www.ep.liu.se                                     1
+plankt.oxfordjournals.org                         5
+dmm.biologists.org                                3
+g3journal.org                                     1
+cshperspectives.cshlp.org                         6
+www.plantcell.org                                 9
+www.scirp.org                                     3
+rstb.royalsocietypublishing.org                   31
+elementascience.org                               1
+www.5z.com                                        1
+www.hindawi.com                                   19
+cccc.uochb.cas.cz                                 2
+advances.sciencemag.org                           1
+www.icevirtuallibrary.com                         4
+ec.asm.org                                        8
+www.biochemj.org                                  97
+www.heterocycles.jp                               1
+mr.crossref.org                                   3
+genome.cshlp.org                                  2
+www.jimmunol.org                                  7
+scitation.aip.org                                 1
+jes.ecsdl.org                                     12
+mnras.oxfordjournals.org                          19
+journals.ametsoc.org                              9
+www.ajnr.org                                      2
+pubs.rsc.org                                      3
+hyper.ahajournals.org                             1
+www.worldscientific.com                           28
+embomolmed.embopress.org                          2
+www.plantphysiol.org                              13
+dl.acm.org                                        25
+hip.sagepub.com                                   3
+www.scienceopen.com                               1
+jcb.sagepub.com                                   1
+www.journalofhospitalinfection.com                2
+mnrasl.oxfordjournals.org                         2
+aem.asm.org                                       6
+online.liebertpub.com                             7
+jxb.oxfordjournals.org                            13
+www.atmos-chem-phys-discuss.net                   16
+dev.biologists.org                                11
+jpet.aspetjournals.org                            3
+bja.oxfordjournals.org                            3
+www.sciencedirect.com                             1
+www.inderscience.com                              18
+f1000research.com                                 1
+ogst.ifpenergiesnouvelles.fr                      1
+genomea.asm.org                                   1
+mcb.asm.org                                       7
+www.annualreviews.org                             25
+apsjournals.apsnet.org                            6
+pt.wkhealth.com                                   9
+database.oxfordjournals.org                       1
+nar.oxfordjournals.org                            69
+bioinformatics.oxfordjournals.org                 13
+hmg.oxfordjournals.org                            7
+jcs.biologists.org                                19
+jb.oxfordjournals.org                             1
+www.ams.org                                       1
+www.crossref.org                                  80
+jphyscol.journaldephysique.org                    8
+actachemscand.org                                 2
+jcb.rupress.org                                   10
+symposia.biochemistry.org                         2
+rspb.royalsocietypublishing.org                   17
+glycob.oxfordjournals.org                         6
+www.jucs.org                                      2
+www.jneurosci.org                                 6
+ecst.ecsdl.org                                    3
+www.nanomedjournal.com                            2
+www.jurnalteknologi.utm.my                        1
+tobaccocontrol.bmj.com                            1
+jbx.sagepub.com                                   5
+www.maneyonline.com                               5
+amj.aom.org                                       1
+cellandbioscience.biomedcentral.com               1
+www.contactlensjournal.com                        2
+www.crcnetbase.com                                3
+mct.aacrjournals.org                              5
+rsob.royalsocietypublishing.org                   10
+www.the-cryosphere.net                            1
+sp.lyellcollection.org                            1
+www.nrcresearchpress.com                          23
+www.doiserbia.nb.rs                               1
+aob.oxfordjournals.org                            1
+jim.sagepub.com                                   1
+www.jacionline.org                                6
+ammin.geoscienceworld.org                         3
+www.eurekaselect.com                              35
+teamat.oxfordjournals.org                         1
+orgsyn.org                                        1
+mic.microbiologyresearch.org                      11
+jss.ecsdl.org                                     1
+physiolgenomics.physiology.org                    1
+rsta.royalsocietypublishing.org                   45
+esl.ecsdl.org                                     8
+www.igi-global.com                                23
+atvb.ahajournals.org                              2
+www.schweizerbart.de                              1
+ebooks.cambridge.org                              5
+jb.asm.org                                        16
+www.pdpdt-journal.com                             1
+ajpcell.physiology.org                            1
+jgv.microbiologyresearch.org                      2
+www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net1
+carcin.oxfordjournals.org                         4
+www.witpress.com                                  1
+heart.bmj.com                                     2
+www.thebonejournal.com                            1
+pubs.acs.org                                      3
+femsle.oxfordjournals.org                         3
+journals.humankinetics.com                        3
+symposium.cshlp.org                               1
+femsre.oxfordjournals.org                         2
+www.biogeosciences.net                            3
+www.publish.csiro.au                              26
+www.earth-syst-sci-data.net                       1
+elifesciences.org                                 7
+ieeexplore.ieee.org                               444
+booksandjournals.brillonline.com                  1
+mutage.oxfordjournals.org                         1
+thescipub.com                                     1
+physiologyonline.physiology.org                   2
+www.spandidos-publications.com                    1
+www.karger.com                                    5
+bioscience.oxfordjournals.org                     1
+tellusa.net                                       1
+www.ingentaconnect.com                            67
+hum.sagepub.com                                   2
+diglib.eg.org                                     1
+www.bloodjournal.org                              7
+acsm.revuesonline.com                             1
+www.matec-conferences.org                         1
+www.jdsjournal.com                                1
+pub.iapchem.org                                   1
+www.ijdb.ehu.es                                   1
+www.jci.org                                       3
+elements.geoscienceworld.org                      1
+www.future-science.com                            15
+www.wormbook.org                                  1
+www.jove.com                                      5
+ajprenal.physiology.org                           1
+www.beilstein-journals.org                        27
+jac.oxfordjournals.org                            3
+www.ajsonline.org                                 1
+www.sciencemag.org                                109
+emboj.embopress.org                               39
+genesdev.cshlp.org                                3
+biecoll.ub.uni-bielefeld.de                       1
+jme.sagepub.com                                   1
+msb.embopress.org                                 1
+search.ieice.org                                  2
+embor.embopress.org                               8
+trj.sagepub.com                                   1
+pps.sagepub.com                                   1
+jp4.journaldephysique.org                         4
+pig.sagepub.com                                   1
+digital-library.theiet.org                        5
+synapse.koreamed.org                              3
+cancerres.aacrjournals.org                        4
+www.int-res.com                                   3
+www.impactjournals.com                            1
+aqua.iwaponline.com                               1
+evodevojournal.biomedcentral.com                  1
+journals.iucr.org                                 1
+journals.cambridge.org                            43
+www.jle.com                                       1
+scfbm.biomedcentral.com                           2
+www.geosci-model-dev.net                          5
+hrcak.srce.hr                                     2
+www.jaim.in                                       1
+www.asianjournalofchemistry.co.in                 2
+www.clays.org                                     1
+cardiovascres.oxfordjournals.org                  2
+www.thieme-connect.de                             197
+ije.oxfordjournals.org                            1
+www.epj-conferences.org                           1
+doi.pangaea.de                                    1
+www.scielo.br                                     1
+www.bioscirep.org                                 2
+www.genetics.org                                  1
+www.wageningenacademic.com                        1
+ageing.oxfordjournals.org                         1
+www.ann-geophys.net                               4
+actaneurocomms.biomedcentral.com                  1
+corrosionjournal.org                              1
+www.futuremedicine.com                            5
+advancedsearch2.virginmedia.com                   1
+www.jbc.org                                       163
+www.osapublishing.org                             335
+www.ajol.info                                     2
+www.emeraldinsight.com                            37
+journal.frontiersin.org                           16
+koreascience.or.kr                                1
+jem.rupress.org                                   2
+link.springer.com                                 1
+essays.biochemistry.org                           1
+dmd.aspetjournals.org                             1
+iovs.arvojournals.org                             4
+www.ejcancer.com                                  1
+www.febsletters.org                               19
+www.omicsonline.org                               2
+jmcb.oxfordjournals.org                           2
+humrep.oxfordjournals.org                         2
+jop.sagepub.com                                   1
+www.biogeosciences-discuss.net                    1
+www.cell.com                                      247
+www.asiaandro.com                                 1
+jba.sagepub.com                                   1
+www.jurology.com                                  1
+www.clinchem.org                                  2
+www.fasebj.org                                    10
+aac.asm.org                                       16
+www.bioscience.org                                1
+www.biochemsoctrans.org                           50
+www.impublications.com                            3
+www.intechopen.com                                1
+proceedings.spiedigitallibrary.org                155
+linkinghub.elsevier.com                           31
+www.eas-journal.org                               1
+www.mdpi.com                                      50
+ajpendo.physiology.org                            2
+www.mcponline.org                                 20
+stke.sciencemag.org                               7
+opticalengineering.spiedigitallibrary.org         2
+jphys.journaldephysique.org                       1
+www.jstor.org                                     4
+www.akademiai.com                                 4
+materconstrucc.revistas.csic.es                   1
+www.onepetro.org:443                              1
+gut.bmj.com                                       1
+adsabs.harvard.edu                                2
+cshprotocols.cshlp.org                            1
+papers.sae.org                                    2
+molpharm.aspetjournals.org                        3
+gbe.oxfordjournals.org                            1
+www.pnas.org                                      330
+cancerdiscovery.aacrjournals.org                  1
+www.hydrol-earth-syst-sci.net                     1
+ebooks.iospress.nl                                6
+content.iospress.com                              5
+stm.sciencemag.org                                2
+peds.oxfordjournals.org                           31
+www.mmnp-journal.org                              1
+www.e3s-conferences.org                           1
+clincancerres.aacrjournals.org                    1
+----------------------------------------------------------------------
+Scraped Publisher Breakdown:
+----------------------------------------------------------------------
+
+Most frequent publisher:                        rsc
+
+
+Publisher                                number of records
+Springer                                          642
+ScienceDirect                                     520
+Nature                                            88
+scientific.net                                    10
+Wiley                                             2328
+RoyalSociety                                      52
+jstage                                            23
+rsc                                               4394
+ACS                                               4153
+International Union of Crystallography            761
+iop                                               147
+American Physical Society                         573
+
+********************************************************************************************************************************************
+Analysis of scraping run performed at 12:12 13 December 2015
+**********************************************************************
+
+Total records parsed:                             20049
+Total records successfully collected:             13691
+Conversion rate:                                  68.2877%
+
+
+----------------------------------------------------------------------
+Losses Breakdown:
+----------------------------------------------------------------------
+
+Total No. of records not converted:               6358
+No. lost due to errors in collection:             1569
+No. lost due to request timeouts:                 0
+No. lost due to missing publisher info:           4789
+
+
+----------------------------------------------------------------------
+Collection Errors Breakdown:
+----------------------------------------------------------------------
+
+Most collection errors for publisher:           scitation.aip.org
+
+
+Publisher                                   no. of errors
+scitation.aip.org                                 992
+onlinelibrary.wiley.com                           179
+www.sciencedirect.com                             15
+rsif.royalsocietypublishing.org                   4
+pubs.rsc.org                                      31
+www.nature.com                                    151
+rspa.royalsocietypublishing.org                   3
+journals.aps.org                                  4
+pubs.acs.org                                      6
+iopscience.iop.org                                95
+link.springer.com                                 89
+
+
+----------------------------------------------------------------------
+Missing publisher Errors Breakdown:
+----------------------------------------------------------------------
+
+Most frequent missing publisher:                www.tandfonline.com
+
+
+Publisher                                number of records
+polipapers.upv.es                                 1
+journals.prous.com                                2
+bmjopen.bmj.com                                   1
+mlq.sagepub.com                                   1
+rsnr.royalsocietypublishing.org                   1
+www.minersoc.org                                  6
+www.medicaljournals.se                            2
+jvi.asm.org                                       8
+mbe.oxfordjournals.org                            3
+www.aanda.org                                     9
+journals.plos.org                                 215
+iai.asm.org                                       2
+www.atmos-chem-phys.net                           129
+www.tandfonline.com                               696
+rsbm.royalsocietypublishing.org                   2
+www.dovepress.com                                 1
+joe.endocrinology-journals.org                    2
+www.fsijournal.org                                2
+ajcn.nutrition.org                                2
+www.cherd.ichemejournals.com                      3
+jid.oxfordjournals.org                            1
+www.jlr.org                                       3
+www.medecinesciences.org                          1
+brain.oxfordjournals.org                          2
+pih.sagepub.com                                   6
+ijepr.avestia.com                                 1
+biomedicaloptics.spiedigitallibrary.org           7
+rnajournal.cshlp.org                              4
+rsfs.royalsocietypublishing.org                   3
+diabetes.diabetesjournals.org                     6
+physrev.physiology.org                            1
+www.atmos-meas-tech.net                           11
+www.jeos.org                                      2
+www.molbiolcell.org                               9
+www.ep.liu.se                                     1
+plankt.oxfordjournals.org                         5
+dmm.biologists.org                                3
+g3journal.org                                     1
+cshperspectives.cshlp.org                         6
+www.plantcell.org                                 9
+www.scirp.org                                     3
+rstb.royalsocietypublishing.org                   31
+elementascience.org                               1
+www.5z.com                                        1
+www.hindawi.com                                   19
+cccc.uochb.cas.cz                                 2
+advances.sciencemag.org                           1
+www.icevirtuallibrary.com                         4
+ec.asm.org                                        8
+www.biochemj.org                                  97
+www.heterocycles.jp                               1
+mr.crossref.org                                   3
+genome.cshlp.org                                  2
+www.jimmunol.org                                  7
+scitation.aip.org                                 1
+jes.ecsdl.org                                     12
+mnras.oxfordjournals.org                          19
+journals.ametsoc.org                              9
+www.ajnr.org                                      2
+pubs.rsc.org                                      3
+hyper.ahajournals.org                             1
+www.worldscientific.com                           28
+embomolmed.embopress.org                          2
+www.plantphysiol.org                              13
+dl.acm.org                                        25
+hip.sagepub.com                                   3
+www.scienceopen.com                               1
+jcb.sagepub.com                                   1
+www.journalofhospitalinfection.com                2
+mnrasl.oxfordjournals.org                         2
+aem.asm.org                                       6
+online.liebertpub.com                             7
+jxb.oxfordjournals.org                            13
+www.atmos-chem-phys-discuss.net                   16
+dev.biologists.org                                11
+jpet.aspetjournals.org                            3
+bja.oxfordjournals.org                            3
+www.sciencedirect.com                             1
+www.inderscience.com                              18
+f1000research.com                                 1
+ogst.ifpenergiesnouvelles.fr                      1
+genomea.asm.org                                   1
+mcb.asm.org                                       7
+www.annualreviews.org                             25
+apsjournals.apsnet.org                            6
+pt.wkhealth.com                                   9
+database.oxfordjournals.org                       1
+nar.oxfordjournals.org                            69
+bioinformatics.oxfordjournals.org                 13
+hmg.oxfordjournals.org                            7
+jcs.biologists.org                                19
+jb.oxfordjournals.org                             1
+www.ams.org                                       1
+www.crossref.org                                  80
+jphyscol.journaldephysique.org                    8
+actachemscand.org                                 2
+jcb.rupress.org                                   10
+symposia.biochemistry.org                         2
+rspb.royalsocietypublishing.org                   17
+glycob.oxfordjournals.org                         6
+www.jucs.org                                      2
+www.jneurosci.org                                 6
+ecst.ecsdl.org                                    3
+www.nanomedjournal.com                            2
+www.jurnalteknologi.utm.my                        1
+tobaccocontrol.bmj.com                            1
+jbx.sagepub.com                                   5
+www.maneyonline.com                               5
+amj.aom.org                                       1
+cellandbioscience.biomedcentral.com               1
+www.contactlensjournal.com                        2
+www.crcnetbase.com                                3
+mct.aacrjournals.org                              5
+rsob.royalsocietypublishing.org                   10
+www.the-cryosphere.net                            1
+sp.lyellcollection.org                            1
+www.nrcresearchpress.com                          23
+www.doiserbia.nb.rs                               1
+aob.oxfordjournals.org                            1
+jim.sagepub.com                                   1
+www.jacionline.org                                6
+ammin.geoscienceworld.org                         3
+www.eurekaselect.com                              35
+teamat.oxfordjournals.org                         1
+orgsyn.org                                        1
+mic.microbiologyresearch.org                      11
+jss.ecsdl.org                                     1
+physiolgenomics.physiology.org                    1
+rsta.royalsocietypublishing.org                   45
+esl.ecsdl.org                                     8
+www.igi-global.com                                23
+atvb.ahajournals.org                              2
+www.schweizerbart.de                              1
+ebooks.cambridge.org                              5
+jb.asm.org                                        16
+www.pdpdt-journal.com                             1
+ajpcell.physiology.org                            1
+jgv.microbiologyresearch.org                      2
+www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net1
+carcin.oxfordjournals.org                         4
+www.witpress.com                                  1
+heart.bmj.com                                     2
+www.thebonejournal.com                            1
+pubs.acs.org                                      3
+femsle.oxfordjournals.org                         3
+journals.humankinetics.com                        3
+symposium.cshlp.org                               1
+femsre.oxfordjournals.org                         2
+www.biogeosciences.net                            3
+www.publish.csiro.au                              26
+www.earth-syst-sci-data.net                       1
+elifesciences.org                                 7
+ieeexplore.ieee.org                               444
+booksandjournals.brillonline.com                  1
+mutage.oxfordjournals.org                         1
+thescipub.com                                     1
+physiologyonline.physiology.org                   2
+www.spandidos-publications.com                    1
+www.karger.com                                    5
+bioscience.oxfordjournals.org                     1
+tellusa.net                                       1
+www.ingentaconnect.com                            67
+hum.sagepub.com                                   2
+diglib.eg.org                                     1
+www.bloodjournal.org                              7
+acsm.revuesonline.com                             1
+www.matec-conferences.org                         1
+www.jdsjournal.com                                1
+pub.iapchem.org                                   1
+www.ijdb.ehu.es                                   1
+www.jci.org                                       3
+elements.geoscienceworld.org                      1
+www.future-science.com                            15
+www.wormbook.org                                  1
+www.jove.com                                      5
+ajprenal.physiology.org                           1
+www.beilstein-journals.org                        27
+jac.oxfordjournals.org                            3
+www.ajsonline.org                                 1
+www.sciencemag.org                                109
+emboj.embopress.org                               39
+genesdev.cshlp.org                                3
+biecoll.ub.uni-bielefeld.de                       1
+jme.sagepub.com                                   1
+msb.embopress.org                                 1
+search.ieice.org                                  2
+embor.embopress.org                               8
+trj.sagepub.com                                   1
+pps.sagepub.com                                   1
+jp4.journaldephysique.org                         4
+pig.sagepub.com                                   1
+digital-library.theiet.org                        5
+synapse.koreamed.org                              3
+cancerres.aacrjournals.org                        4
+www.int-res.com                                   3
+www.impactjournals.com                            1
+aqua.iwaponline.com                               1
+evodevojournal.biomedcentral.com                  1
+journals.iucr.org                                 1
+journals.cambridge.org                            43
+www.jle.com                                       1
+scfbm.biomedcentral.com                           2
+www.geosci-model-dev.net                          5
+hrcak.srce.hr                                     2
+www.jaim.in                                       1
+www.asianjournalofchemistry.co.in                 2
+www.clays.org                                     1
+cardiovascres.oxfordjournals.org                  2
+www.thieme-connect.de                             197
+ije.oxfordjournals.org                            1
+www.epj-conferences.org                           1
+doi.pangaea.de                                    1
+www.scielo.br                                     1
+www.bioscirep.org                                 2
+www.genetics.org                                  1
+www.wageningenacademic.com                        1
+ageing.oxfordjournals.org                         1
+www.ann-geophys.net                               4
+actaneurocomms.biomedcentral.com                  1
+corrosionjournal.org                              1
+www.futuremedicine.com                            5
+advancedsearch2.virginmedia.com                   1
+www.jbc.org                                       163
+www.osapublishing.org                             335
+www.ajol.info                                     2
+www.emeraldinsight.com                            37
+journal.frontiersin.org                           16
+koreascience.or.kr                                1
+jem.rupress.org                                   2
+link.springer.com                                 1
+essays.biochemistry.org                           1
+dmd.aspetjournals.org                             1
+iovs.arvojournals.org                             4
+www.ejcancer.com                                  1
+www.febsletters.org                               19
+www.omicsonline.org                               2
+jmcb.oxfordjournals.org                           2
+humrep.oxfordjournals.org                         2
+jop.sagepub.com                                   1
+www.biogeosciences-discuss.net                    1
+www.cell.com                                      247
+www.asiaandro.com                                 1
+jba.sagepub.com                                   1
+www.jurology.com                                  1
+www.clinchem.org                                  2
+www.fasebj.org                                    10
+aac.asm.org                                       16
+www.bioscience.org                                1
+www.biochemsoctrans.org                           50
+www.impublications.com                            3
+www.intechopen.com                                1
+proceedings.spiedigitallibrary.org                155
+linkinghub.elsevier.com                           31
+www.eas-journal.org                               1
+www.mdpi.com                                      50
+ajpendo.physiology.org                            2
+www.mcponline.org                                 20
+stke.sciencemag.org                               7
+opticalengineering.spiedigitallibrary.org         2
+jphys.journaldephysique.org                       1
+www.jstor.org                                     4
+www.akademiai.com                                 4
+materconstrucc.revistas.csic.es                   1
+www.onepetro.org:443                              1
+gut.bmj.com                                       1
+adsabs.harvard.edu                                2
+cshprotocols.cshlp.org                            1
+papers.sae.org                                    2
+molpharm.aspetjournals.org                        3
+gbe.oxfordjournals.org                            1
+www.pnas.org                                      330
+cancerdiscovery.aacrjournals.org                  1
+www.hydrol-earth-syst-sci.net                     1
+ebooks.iospress.nl                                6
+content.iospress.com                              5
+stm.sciencemag.org                                2
+peds.oxfordjournals.org                           31
+www.mmnp-journal.org                              1
+www.e3s-conferences.org                           1
+clincancerres.aacrjournals.org                    1
+----------------------------------------------------------------------
+Scraped Publisher Breakdown:
+----------------------------------------------------------------------
+
+Most frequent publisher:                        rsc
+
+
+Publisher                                number of records
+Springer                                          642
+ScienceDirect                                     520
+Nature                                            88
+scientific.net                                    10
+Wiley                                             2328
+RoyalSociety                                      52
+jstage                                            23
+rsc                                               4394
+ACS                                               4153
+International Union of Crystallography            761
+iop                                               147
+American Physical Society                         573
+
+********************************************************************************************************************************************
+Analysis of scraping run performed at 12:12 13 December 2015
+**********************************************************************
+
+Total records parsed:                             20049
+Total records successfully collected:             13691
+Conversion rate:                                  68.2877%
+
+
+----------------------------------------------------------------------
+Losses Breakdown:
+----------------------------------------------------------------------
+
+Total No. of records not converted:               6358
+No. lost due to errors in collection:             1569
+No. lost due to request timeouts:                 0
+No. lost due to missing publisher info:           4789
+
+
+----------------------------------------------------------------------
+Collection Errors Breakdown:
+----------------------------------------------------------------------
+
+Most collection errors for publisher:           scitation.aip.org
+
+
+Publisher                                   no. of errors
+scitation.aip.org                                 992
+onlinelibrary.wiley.com                           179
+www.sciencedirect.com                             15
+rsif.royalsocietypublishing.org                   4
+pubs.rsc.org                                      31
+www.nature.com                                    151
+rspa.royalsocietypublishing.org                   3
+journals.aps.org                                  4
+pubs.acs.org                                      6
+iopscience.iop.org                                95
+link.springer.com                                 89
+
+
+----------------------------------------------------------------------
+Missing publisher Errors Breakdown:
+----------------------------------------------------------------------
+
+Most frequent missing publisher:                www.tandfonline.com
+
+
+Publisher                                number of records
+polipapers.upv.es                                 1
+journals.prous.com                                2
+bmjopen.bmj.com                                   1
+mlq.sagepub.com                                   1
+rsnr.royalsocietypublishing.org                   1
+www.minersoc.org                                  6
+www.medicaljournals.se                            2
+jvi.asm.org                                       8
+mbe.oxfordjournals.org                            3
+www.aanda.org                                     9
+journals.plos.org                                 215
+iai.asm.org                                       2
+www.atmos-chem-phys.net                           129
+www.tandfonline.com                               696
+rsbm.royalsocietypublishing.org                   2
+www.dovepress.com                                 1
+joe.endocrinology-journals.org                    2
+www.fsijournal.org                                2
+ajcn.nutrition.org                                2
+www.cherd.ichemejournals.com                      3
+jid.oxfordjournals.org                            1
+www.jlr.org                                       3
+www.medecinesciences.org                          1
+brain.oxfordjournals.org                          2
+pih.sagepub.com                                   6
+ijepr.avestia.com                                 1
+biomedicaloptics.spiedigitallibrary.org           7
+rnajournal.cshlp.org                              4
+rsfs.royalsocietypublishing.org                   3
+diabetes.diabetesjournals.org                     6
+physrev.physiology.org                            1
+www.atmos-meas-tech.net                           11
+www.jeos.org                                      2
+www.molbiolcell.org                               9
+www.ep.liu.se                                     1
+plankt.oxfordjournals.org                         5
+dmm.biologists.org                                3
+g3journal.org                                     1
+cshperspectives.cshlp.org                         6
+www.plantcell.org                                 9
+www.scirp.org                                     3
+rstb.royalsocietypublishing.org                   31
+elementascience.org                               1
+www.5z.com                                        1
+www.hindawi.com                                   19
+cccc.uochb.cas.cz                                 2
+advances.sciencemag.org                           1
+www.icevirtuallibrary.com                         4
+ec.asm.org                                        8
+www.biochemj.org                                  97
+www.heterocycles.jp                               1
+mr.crossref.org                                   3
+genome.cshlp.org                                  2
+www.jimmunol.org                                  7
+scitation.aip.org                                 1
+jes.ecsdl.org                                     12
+mnras.oxfordjournals.org                          19
+journals.ametsoc.org                              9
+www.ajnr.org                                      2
+pubs.rsc.org                                      3
+hyper.ahajournals.org                             1
+www.worldscientific.com                           28
+embomolmed.embopress.org                          2
+www.plantphysiol.org                              13
+dl.acm.org                                        25
+hip.sagepub.com                                   3
+www.scienceopen.com                               1
+jcb.sagepub.com                                   1
+www.journalofhospitalinfection.com                2
+mnrasl.oxfordjournals.org                         2
+aem.asm.org                                       6
+online.liebertpub.com                             7
+jxb.oxfordjournals.org                            13
+www.atmos-chem-phys-discuss.net                   16
+dev.biologists.org                                11
+jpet.aspetjournals.org                            3
+bja.oxfordjournals.org                            3
+www.sciencedirect.com                             1
+www.inderscience.com                              18
+f1000research.com                                 1
+ogst.ifpenergiesnouvelles.fr                      1
+genomea.asm.org                                   1
+mcb.asm.org                                       7
+www.annualreviews.org                             25
+apsjournals.apsnet.org                            6
+pt.wkhealth.com                                   9
+database.oxfordjournals.org                       1
+nar.oxfordjournals.org                            69
+bioinformatics.oxfordjournals.org                 13
+hmg.oxfordjournals.org                            7
+jcs.biologists.org                                19
+jb.oxfordjournals.org                             1
+www.ams.org                                       1
+www.crossref.org                                  80
+jphyscol.journaldephysique.org                    8
+actachemscand.org                                 2
+jcb.rupress.org                                   10
+symposia.biochemistry.org                         2
+rspb.royalsocietypublishing.org                   17
+glycob.oxfordjournals.org                         6
+www.jucs.org                                      2
+www.jneurosci.org                                 6
+ecst.ecsdl.org                                    3
+www.nanomedjournal.com                            2
+www.jurnalteknologi.utm.my                        1
+tobaccocontrol.bmj.com                            1
+jbx.sagepub.com                                   5
+www.maneyonline.com                               5
+amj.aom.org                                       1
+cellandbioscience.biomedcentral.com               1
+www.contactlensjournal.com                        2
+www.crcnetbase.com                                3
+mct.aacrjournals.org                              5
+rsob.royalsocietypublishing.org                   10
+www.the-cryosphere.net                            1
+sp.lyellcollection.org                            1
+www.nrcresearchpress.com                          23
+www.doiserbia.nb.rs                               1
+aob.oxfordjournals.org                            1
+jim.sagepub.com                                   1
+www.jacionline.org                                6
+ammin.geoscienceworld.org                         3
+www.eurekaselect.com                              35
+teamat.oxfordjournals.org                         1
+orgsyn.org                                        1
+mic.microbiologyresearch.org                      11
+jss.ecsdl.org                                     1
+physiolgenomics.physiology.org                    1
+rsta.royalsocietypublishing.org                   45
+esl.ecsdl.org                                     8
+www.igi-global.com                                23
+atvb.ahajournals.org                              2
+www.schweizerbart.de                              1
+ebooks.cambridge.org                              5
+jb.asm.org                                        16
+www.pdpdt-journal.com                             1
+ajpcell.physiology.org                            1
+jgv.microbiologyresearch.org                      2
+www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net1
+carcin.oxfordjournals.org                         4
+www.witpress.com                                  1
+heart.bmj.com                                     2
+www.thebonejournal.com                            1
+pubs.acs.org                                      3
+femsle.oxfordjournals.org                         3
+journals.humankinetics.com                        3
+symposium.cshlp.org                               1
+femsre.oxfordjournals.org                         2
+www.biogeosciences.net                            3
+www.publish.csiro.au                              26
+www.earth-syst-sci-data.net                       1
+elifesciences.org                                 7
+ieeexplore.ieee.org                               444
+booksandjournals.brillonline.com                  1
+mutage.oxfordjournals.org                         1
+thescipub.com                                     1
+physiologyonline.physiology.org                   2
+www.spandidos-publications.com                    1
+www.karger.com                                    5
+bioscience.oxfordjournals.org                     1
+tellusa.net                                       1
+www.ingentaconnect.com                            67
+hum.sagepub.com                                   2
+diglib.eg.org                                     1
+www.bloodjournal.org                              7
+acsm.revuesonline.com                             1
+www.matec-conferences.org                         1
+www.jdsjournal.com                                1
+pub.iapchem.org                                   1
+www.ijdb.ehu.es                                   1
+www.jci.org                                       3
+elements.geoscienceworld.org                      1
+www.future-science.com                            15
+www.wormbook.org                                  1
+www.jove.com                                      5
+ajprenal.physiology.org                           1
+www.beilstein-journals.org                        27
+jac.oxfordjournals.org                            3
+www.ajsonline.org                                 1
+www.sciencemag.org                                109
+emboj.embopress.org                               39
+genesdev.cshlp.org                                3
+biecoll.ub.uni-bielefeld.de                       1
+jme.sagepub.com                                   1
+msb.embopress.org                                 1
+search.ieice.org                                  2
+embor.embopress.org                               8
+trj.sagepub.com                                   1
+pps.sagepub.com                                   1
+jp4.journaldephysique.org                         4
+pig.sagepub.com                                   1
+digital-library.theiet.org                        5
+synapse.koreamed.org                              3
+cancerres.aacrjournals.org                        4
+www.int-res.com                                   3
+www.impactjournals.com                            1
+aqua.iwaponline.com                               1
+evodevojournal.biomedcentral.com                  1
+journals.iucr.org                                 1
+journals.cambridge.org                            43
+www.jle.com                                       1
+scfbm.biomedcentral.com                           2
+www.geosci-model-dev.net                          5
+hrcak.srce.hr                                     2
+www.jaim.in                                       1
+www.asianjournalofchemistry.co.in                 2
+www.clays.org                                     1
+cardiovascres.oxfordjournals.org                  2
+www.thieme-connect.de                             197
+ije.oxfordjournals.org                            1
+www.epj-conferences.org                           1
+doi.pangaea.de                                    1
+www.scielo.br                                     1
+www.bioscirep.org                                 2
+www.genetics.org                                  1
+www.wageningenacademic.com                        1
+ageing.oxfordjournals.org                         1
+www.ann-geophys.net                               4
+actaneurocomms.biomedcentral.com                  1
+corrosionjournal.org                              1
+www.futuremedicine.com                            5
+advancedsearch2.virginmedia.com                   1
+www.jbc.org                                       163
+www.osapublishing.org                             335
+www.ajol.info                                     2
+www.emeraldinsight.com                            37
+journal.frontiersin.org                           16
+koreascience.or.kr                                1
+jem.rupress.org                                   2
+link.springer.com                                 1
+essays.biochemistry.org                           1
+dmd.aspetjournals.org                             1
+iovs.arvojournals.org                             4
+www.ejcancer.com                                  1
+www.febsletters.org                               19
+www.omicsonline.org                               2
+jmcb.oxfordjournals.org                           2
+humrep.oxfordjournals.org                         2
+jop.sagepub.com                                   1
+www.biogeosciences-discuss.net                    1
+www.cell.com                                      247
+www.asiaandro.com                                 1
+jba.sagepub.com                                   1
+www.jurology.com                                  1
+www.clinchem.org                                  2
+www.fasebj.org                                    10
+aac.asm.org                                       16
+www.bioscience.org                                1
+www.biochemsoctrans.org                           50
+www.impublications.com                            3
+www.intechopen.com                                1
+proceedings.spiedigitallibrary.org                155
+linkinghub.elsevier.com                           31
+www.eas-journal.org                               1
+www.mdpi.com                                      50
+ajpendo.physiology.org                            2
+www.mcponline.org                                 20
+stke.sciencemag.org                               7
+opticalengineering.spiedigitallibrary.org         2
+jphys.journaldephysique.org                       1
+www.jstor.org                                     4
+www.akademiai.com                                 4
+materconstrucc.revistas.csic.es                   1
+www.onepetro.org:443                              1
+gut.bmj.com                                       1
+adsabs.harvard.edu                                2
+cshprotocols.cshlp.org                            1
+papers.sae.org                                    2
+molpharm.aspetjournals.org                        3
+gbe.oxfordjournals.org                            1
+www.pnas.org                                      330
+cancerdiscovery.aacrjournals.org                  1
+www.hydrol-earth-syst-sci.net                     1
+ebooks.iospress.nl                                6
+content.iospress.com                              5
+stm.sciencemag.org                                2
+peds.oxfordjournals.org                           31
+www.mmnp-journal.org                              1
+www.e3s-conferences.org                           1
+clincancerres.aacrjournals.org                    1
+----------------------------------------------------------------------
+Scraped Publisher Breakdown:
+----------------------------------------------------------------------
+
+Most frequent publisher:                        rsc
+
+
+Publisher                                number of records
+Springer                                          642
+ScienceDirect                                     520
+Nature                                            88
+scientific.net                                    10
+Wiley                                             2328
+RoyalSociety                                      52
+jstage                                            23
+rsc                                               4394
+ACS                                               4153
+International Union of Crystallography            761
+iop                                               147
+American Physical Society                         573
+
+********************************************************************************************************************************************
+Analysis of scraping run performed at 12:12 13 December 2015
+**********************************************************************
+
+Total records parsed:                             20049
+Total records successfully collected:             13691
+Conversion rate:                                  68.2877%
+
+
+----------------------------------------------------------------------
+Losses Breakdown:
+----------------------------------------------------------------------
+
+Total No. of records not converted:               6358
+No. lost due to errors in collection:             1569
+No. lost due to request timeouts:                 0
+No. lost due to missing publisher info:           4789
+
+
+----------------------------------------------------------------------
+Collection Errors Breakdown:
+----------------------------------------------------------------------
+
+Most collection errors for publisher:           scitation.aip.org
+
+
+Publisher                                   no. of errors
+scitation.aip.org                                 992
+onlinelibrary.wiley.com                           179
+www.sciencedirect.com                             15
+rsif.royalsocietypublishing.org                   4
+pubs.rsc.org                                      31
+www.nature.com                                    151
+rspa.royalsocietypublishing.org                   3
+journals.aps.org                                  4
+pubs.acs.org                                      6
+iopscience.iop.org                                95
+link.springer.com                                 89
+
+
+----------------------------------------------------------------------
+Missing publisher Errors Breakdown:
+----------------------------------------------------------------------
+
+Most frequent missing publisher:                www.tandfonline.com
+
+
+Publisher                                number of records
+polipapers.upv.es                                 1
+journals.prous.com                                2
+bmjopen.bmj.com                                   1
+mlq.sagepub.com                                   1
+rsnr.royalsocietypublishing.org                   1
+www.minersoc.org                                  6
+www.medicaljournals.se                            2
+jvi.asm.org                                       8
+mbe.oxfordjournals.org                            3
+www.aanda.org                                     9
+journals.plos.org                                 215
+iai.asm.org                                       2
+www.atmos-chem-phys.net                           129
+www.tandfonline.com                               696
+rsbm.royalsocietypublishing.org                   2
+www.dovepress.com                                 1
+joe.endocrinology-journals.org                    2
+www.fsijournal.org                                2
+ajcn.nutrition.org                                2
+www.cherd.ichemejournals.com                      3
+jid.oxfordjournals.org                            1
+www.jlr.org                                       3
+www.medecinesciences.org                          1
+brain.oxfordjournals.org                          2
+pih.sagepub.com                                   6
+ijepr.avestia.com                                 1
+biomedicaloptics.spiedigitallibrary.org           7
+rnajournal.cshlp.org                              4
+rsfs.royalsocietypublishing.org                   3
+diabetes.diabetesjournals.org                     6
+physrev.physiology.org                            1
+www.atmos-meas-tech.net                           11
+www.jeos.org                                      2
+www.molbiolcell.org                               9
+www.ep.liu.se                                     1
+plankt.oxfordjournals.org                         5
+dmm.biologists.org                                3
+g3journal.org                                     1
+cshperspectives.cshlp.org                         6
+www.plantcell.org                                 9
+www.scirp.org                                     3
+rstb.royalsocietypublishing.org                   31
+elementascience.org                               1
+www.5z.com                                        1
+www.hindawi.com                                   19
+cccc.uochb.cas.cz                                 2
+advances.sciencemag.org                           1
+www.icevirtuallibrary.com                         4
+ec.asm.org                                        8
+www.biochemj.org                                  97
+www.heterocycles.jp                               1
+mr.crossref.org                                   3
+genome.cshlp.org                                  2
+www.jimmunol.org                                  7
+scitation.aip.org                                 1
+jes.ecsdl.org                                     12
+mnras.oxfordjournals.org                          19
+journals.ametsoc.org                              9
+www.ajnr.org                                      2
+pubs.rsc.org                                      3
+hyper.ahajournals.org                             1
+www.worldscientific.com                           28
+embomolmed.embopress.org                          2
+www.plantphysiol.org                              13
+dl.acm.org                                        25
+hip.sagepub.com                                   3
+www.scienceopen.com                               1
+jcb.sagepub.com                                   1
+www.journalofhospitalinfection.com                2
+mnrasl.oxfordjournals.org                         2
+aem.asm.org                                       6
+online.liebertpub.com                             7
+jxb.oxfordjournals.org                            13
+www.atmos-chem-phys-discuss.net                   16
+dev.biologists.org                                11
+jpet.aspetjournals.org                            3
+bja.oxfordjournals.org                            3
+www.sciencedirect.com                             1
+www.inderscience.com                              18
+f1000research.com                                 1
+ogst.ifpenergiesnouvelles.fr                      1
+genomea.asm.org                                   1
+mcb.asm.org                                       7
+www.annualreviews.org                             25
+apsjournals.apsnet.org                            6
+pt.wkhealth.com                                   9
+database.oxfordjournals.org                       1
+nar.oxfordjournals.org                            69
+bioinformatics.oxfordjournals.org                 13
+hmg.oxfordjournals.org                            7
+jcs.biologists.org                                19
+jb.oxfordjournals.org                             1
+www.ams.org                                       1
+www.crossref.org                                  80
+jphyscol.journaldephysique.org                    8
+actachemscand.org                                 2
+jcb.rupress.org                                   10
+symposia.biochemistry.org                         2
+rspb.royalsocietypublishing.org                   17
+glycob.oxfordjournals.org                         6
+www.jucs.org                                      2
+www.jneurosci.org                                 6
+ecst.ecsdl.org                                    3
+www.nanomedjournal.com                            2
+www.jurnalteknologi.utm.my                        1
+tobaccocontrol.bmj.com                            1
+jbx.sagepub.com                                   5
+www.maneyonline.com                               5
+amj.aom.org                                       1
+cellandbioscience.biomedcentral.com               1
+www.contactlensjournal.com                        2
+www.crcnetbase.com                                3
+mct.aacrjournals.org                              5
+rsob.royalsocietypublishing.org                   10
+www.the-cryosphere.net                            1
+sp.lyellcollection.org                            1
+www.nrcresearchpress.com                          23
+www.doiserbia.nb.rs                               1
+aob.oxfordjournals.org                            1
+jim.sagepub.com                                   1
+www.jacionline.org                                6
+ammin.geoscienceworld.org                         3
+www.eurekaselect.com                              35
+teamat.oxfordjournals.org                         1
+orgsyn.org                                        1
+mic.microbiologyresearch.org                      11
+jss.ecsdl.org                                     1
+physiolgenomics.physiology.org                    1
+rsta.royalsocietypublishing.org                   45
+esl.ecsdl.org                                     8
+www.igi-global.com                                23
+atvb.ahajournals.org                              2
+www.schweizerbart.de                              1
+ebooks.cambridge.org                              5
+jb.asm.org                                        16
+www.pdpdt-journal.com                             1
+ajpcell.physiology.org                            1
+jgv.microbiologyresearch.org                      2
+www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net1
+carcin.oxfordjournals.org                         4
+www.witpress.com                                  1
+heart.bmj.com                                     2
+www.thebonejournal.com                            1
+pubs.acs.org                                      3
+femsle.oxfordjournals.org                         3
+journals.humankinetics.com                        3
+symposium.cshlp.org                               1
+femsre.oxfordjournals.org                         2
+www.biogeosciences.net                            3
+www.publish.csiro.au                              26
+www.earth-syst-sci-data.net                       1
+elifesciences.org                                 7
+ieeexplore.ieee.org                               444
+booksandjournals.brillonline.com                  1
+mutage.oxfordjournals.org                         1
+thescipub.com                                     1
+physiologyonline.physiology.org                   2
+www.spandidos-publications.com                    1
+www.karger.com                                    5
+bioscience.oxfordjournals.org                     1
+tellusa.net                                       1
+www.ingentaconnect.com                            67
+hum.sagepub.com                                   2
+diglib.eg.org                                     1
+www.bloodjournal.org                              7
+acsm.revuesonline.com                             1
+www.matec-conferences.org                         1
+www.jdsjournal.com                                1
+pub.iapchem.org                                   1
+www.ijdb.ehu.es                                   1
+www.jci.org                                       3
+elements.geoscienceworld.org                      1
+www.future-science.com                            15
+www.wormbook.org                                  1
+www.jove.com                                      5
+ajprenal.physiology.org                           1
+www.beilstein-journals.org                        27
+jac.oxfordjournals.org                            3
+www.ajsonline.org                                 1
+www.sciencemag.org                                109
+emboj.embopress.org                               39
+genesdev.cshlp.org                                3
+biecoll.ub.uni-bielefeld.de                       1
+jme.sagepub.com                                   1
+msb.embopress.org                                 1
+search.ieice.org                                  2
+embor.embopress.org                               8
+trj.sagepub.com                                   1
+pps.sagepub.com                                   1
+jp4.journaldephysique.org                         4
+pig.sagepub.com                                   1
+digital-library.theiet.org                        5
+synapse.koreamed.org                              3
+cancerres.aacrjournals.org                        4
+www.int-res.com                                   3
+www.impactjournals.com                            1
+aqua.iwaponline.com                               1
+evodevojournal.biomedcentral.com                  1
+journals.iucr.org                                 1
+journals.cambridge.org                            43
+www.jle.com                                       1
+scfbm.biomedcentral.com                           2
+www.geosci-model-dev.net                          5
+hrcak.srce.hr                                     2
+www.jaim.in                                       1
+www.asianjournalofchemistry.co.in                 2
+www.clays.org                                     1
+cardiovascres.oxfordjournals.org                  2
+www.thieme-connect.de                             197
+ije.oxfordjournals.org                            1
+www.epj-conferences.org                           1
+doi.pangaea.de                                    1
+www.scielo.br                                     1
+www.bioscirep.org                                 2
+www.genetics.org                                  1
+www.wageningenacademic.com                        1
+ageing.oxfordjournals.org                         1
+www.ann-geophys.net                               4
+actaneurocomms.biomedcentral.com                  1
+corrosionjournal.org                              1
+www.futuremedicine.com                            5
+advancedsearch2.virginmedia.com                   1
+www.jbc.org                                       163
+www.osapublishing.org                             335
+www.ajol.info                                     2
+www.emeraldinsight.com                            37
+journal.frontiersin.org                           16
+koreascience.or.kr                                1
+jem.rupress.org                                   2
+link.springer.com                                 1
+essays.biochemistry.org                           1
+dmd.aspetjournals.org                             1
+iovs.arvojournals.org                             4
+www.ejcancer.com                                  1
+www.febsletters.org                               19
+www.omicsonline.org                               2
+jmcb.oxfordjournals.org                           2
+humrep.oxfordjournals.org                         2
+jop.sagepub.com                                   1
+www.biogeosciences-discuss.net                    1
+www.cell.com                                      247
+www.asiaandro.com                                 1
+jba.sagepub.com                                   1
+www.jurology.com                                  1
+www.clinchem.org                                  2
+www.fasebj.org                                    10
+aac.asm.org                                       16
+www.bioscience.org                                1
+www.biochemsoctrans.org                           50
+www.impublications.com                            3
+www.intechopen.com                                1
+proceedings.spiedigitallibrary.org                155
+linkinghub.elsevier.com                           31
+www.eas-journal.org                               1
+www.mdpi.com                                      50
+ajpendo.physiology.org                            2
+www.mcponline.org                                 20
+stke.sciencemag.org                               7
+opticalengineering.spiedigitallibrary.org         2
+jphys.journaldephysique.org                       1
+www.jstor.org                                     4
+www.akademiai.com                                 4
+materconstrucc.revistas.csic.es                   1
+www.onepetro.org:443                              1
+gut.bmj.com                                       1
+adsabs.harvard.edu                                2
+cshprotocols.cshlp.org                            1
+papers.sae.org                                    2
+molpharm.aspetjournals.org                        3
+gbe.oxfordjournals.org                            1
+www.pnas.org                                      330
+cancerdiscovery.aacrjournals.org                  1
+www.hydrol-earth-syst-sci.net                     1
+ebooks.iospress.nl                                6
+content.iospress.com                              5
+stm.sciencemag.org                                2
+peds.oxfordjournals.org                           31
+www.mmnp-journal.org                              1
+www.e3s-conferences.org                           1
+clincancerres.aacrjournals.org                    1
+----------------------------------------------------------------------
+Scraped Publisher Breakdown:
+----------------------------------------------------------------------
+
+Most frequent publisher:                        rsc
+
+
+Publisher                                number of records
+Springer                                          642
+ScienceDirect                                     520
+Nature                                            88
+scientific.net                                    10
+Wiley                                             2328
+RoyalSociety                                      52
+jstage                                            23
+rsc                                               4394
+ACS                                               4153
+International Union of Crystallography            761
+iop                                               147
+American Physical Society                         573
+
+********************************************************************************************************************************************
+Analysis of scraping run performed at 12:12 13 December 2015
+**********************************************************************
+
+Total records parsed:                             20049
+Total records successfully collected:             13691
+Conversion rate:                                  68.2877%
+
+
+----------------------------------------------------------------------
+Losses Breakdown:
+----------------------------------------------------------------------
+
+Total No. of records not converted:               6358
+No. lost due to errors in collection:             1569
+No. lost due to request timeouts:                 0
+No. lost due to missing publisher info:           4789
+
+
+----------------------------------------------------------------------
+Collection Errors Breakdown:
+----------------------------------------------------------------------
+
+Most collection errors for publisher:           scitation.aip.org
+
+
+Publisher                                   no. of errors
+scitation.aip.org                                 992
+onlinelibrary.wiley.com                           179
+www.sciencedirect.com                             15
+rsif.royalsocietypublishing.org                   4
+pubs.rsc.org                                      31
+www.nature.com                                    151
+rspa.royalsocietypublishing.org                   3
+journals.aps.org                                  4
+pubs.acs.org                                      6
+iopscience.iop.org                                95
+link.springer.com                                 89
+
+
+----------------------------------------------------------------------
+Missing publisher Errors Breakdown:
+----------------------------------------------------------------------
+
+Most frequent missing publisher:                www.tandfonline.com
+
+
+Publisher                                number of records
+polipapers.upv.es                                 1
+journals.prous.com                                2
+bmjopen.bmj.com                                   1
+mlq.sagepub.com                                   1
+rsnr.royalsocietypublishing.org                   1
+www.minersoc.org                                  6
+www.medicaljournals.se                            2
+jvi.asm.org                                       8
+mbe.oxfordjournals.org                            3
+www.aanda.org                                     9
+journals.plos.org                                 215
+iai.asm.org                                       2
+www.atmos-chem-phys.net                           129
+www.tandfonline.com                               696
+rsbm.royalsocietypublishing.org                   2
+www.dovepress.com                                 1
+joe.endocrinology-journals.org                    2
+www.fsijournal.org                                2
+ajcn.nutrition.org                                2
+www.cherd.ichemejournals.com                      3
+jid.oxfordjournals.org                            1
+www.jlr.org                                       3
+www.medecinesciences.org                          1
+brain.oxfordjournals.org                          2
+pih.sagepub.com                                   6
+ijepr.avestia.com                                 1
+biomedicaloptics.spiedigitallibrary.org           7
+rnajournal.cshlp.org                              4
+rsfs.royalsocietypublishing.org                   3
+diabetes.diabetesjournals.org                     6
+physrev.physiology.org                            1
+www.atmos-meas-tech.net                           11
+www.jeos.org                                      2
+www.molbiolcell.org                               9
+www.ep.liu.se                                     1
+plankt.oxfordjournals.org                         5
+dmm.biologists.org                                3
+g3journal.org                                     1
+cshperspectives.cshlp.org                         6
+www.plantcell.org                                 9
+www.scirp.org                                     3
+rstb.royalsocietypublishing.org                   31
+elementascience.org                               1
+www.5z.com                                        1
+www.hindawi.com                                   19
+cccc.uochb.cas.cz                                 2
+advances.sciencemag.org                           1
+www.icevirtuallibrary.com                         4
+ec.asm.org                                        8
+www.biochemj.org                                  97
+www.heterocycles.jp                               1
+mr.crossref.org                                   3
+genome.cshlp.org                                  2
+www.jimmunol.org                                  7
+scitation.aip.org                                 1
+jes.ecsdl.org                                     12
+mnras.oxfordjournals.org                          19
+journals.ametsoc.org                              9
+www.ajnr.org                                      2
+pubs.rsc.org                                      3
+hyper.ahajournals.org                             1
+www.worldscientific.com                           28
+embomolmed.embopress.org                          2
+www.plantphysiol.org                              13
+dl.acm.org                                        25
+hip.sagepub.com                                   3
+www.scienceopen.com                               1
+jcb.sagepub.com                                   1
+www.journalofhospitalinfection.com                2
+mnrasl.oxfordjournals.org                         2
+aem.asm.org                                       6
+online.liebertpub.com                             7
+jxb.oxfordjournals.org                            13
+www.atmos-chem-phys-discuss.net                   16
+dev.biologists.org                                11
+jpet.aspetjournals.org                            3
+bja.oxfordjournals.org                            3
+www.sciencedirect.com                             1
+www.inderscience.com                              18
+f1000research.com                                 1
+ogst.ifpenergiesnouvelles.fr                      1
+genomea.asm.org                                   1
+mcb.asm.org                                       7
+www.annualreviews.org                             25
+apsjournals.apsnet.org                            6
+pt.wkhealth.com                                   9
+database.oxfordjournals.org                       1
+nar.oxfordjournals.org                            69
+bioinformatics.oxfordjournals.org                 13
+hmg.oxfordjournals.org                            7
+jcs.biologists.org                                19
+jb.oxfordjournals.org                             1
+www.ams.org                                       1
+www.crossref.org                                  80
+jphyscol.journaldephysique.org                    8
+actachemscand.org                                 2
+jcb.rupress.org                                   10
+symposia.biochemistry.org                         2
+rspb.royalsocietypublishing.org                   17
+glycob.oxfordjournals.org                         6
+www.jucs.org                                      2
+www.jneurosci.org                                 6
+ecst.ecsdl.org                                    3
+www.nanomedjournal.com                            2
+www.jurnalteknologi.utm.my                        1
+tobaccocontrol.bmj.com                            1
+jbx.sagepub.com                                   5
+www.maneyonline.com                               5
+amj.aom.org                                       1
+cellandbioscience.biomedcentral.com               1
+www.contactlensjournal.com                        2
+www.crcnetbase.com                                3
+mct.aacrjournals.org                              5
+rsob.royalsocietypublishing.org                   10
+www.the-cryosphere.net                            1
+sp.lyellcollection.org                            1
+www.nrcresearchpress.com                          23
+www.doiserbia.nb.rs                               1
+aob.oxfordjournals.org                            1
+jim.sagepub.com                                   1
+www.jacionline.org                                6
+ammin.geoscienceworld.org                         3
+www.eurekaselect.com                              35
+teamat.oxfordjournals.org                         1
+orgsyn.org                                        1
+mic.microbiologyresearch.org                      11
+jss.ecsdl.org                                     1
+physiolgenomics.physiology.org                    1
+rsta.royalsocietypublishing.org                   45
+esl.ecsdl.org                                     8
+www.igi-global.com                                23
+atvb.ahajournals.org                              2
+www.schweizerbart.de                              1
+ebooks.cambridge.org                              5
+jb.asm.org                                        16
+www.pdpdt-journal.com                             1
+ajpcell.physiology.org                            1
+jgv.microbiologyresearch.org                      2
+www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net1
+carcin.oxfordjournals.org                         4
+www.witpress.com                                  1
+heart.bmj.com                                     2
+www.thebonejournal.com                            1
+pubs.acs.org                                      3
+femsle.oxfordjournals.org                         3
+journals.humankinetics.com                        3
+symposium.cshlp.org                               1
+femsre.oxfordjournals.org                         2
+www.biogeosciences.net                            3
+www.publish.csiro.au                              26
+www.earth-syst-sci-data.net                       1
+elifesciences.org                                 7
+ieeexplore.ieee.org                               444
+booksandjournals.brillonline.com                  1
+mutage.oxfordjournals.org                         1
+thescipub.com                                     1
+physiologyonline.physiology.org                   2
+www.spandidos-publications.com                    1
+www.karger.com                                    5
+bioscience.oxfordjournals.org                     1
+tellusa.net                                       1
+www.ingentaconnect.com                            67
+hum.sagepub.com                                   2
+diglib.eg.org                                     1
+www.bloodjournal.org                              7
+acsm.revuesonline.com                             1
+www.matec-conferences.org                         1
+www.jdsjournal.com                                1
+pub.iapchem.org                                   1
+www.ijdb.ehu.es                                   1
+www.jci.org                                       3
+elements.geoscienceworld.org                      1
+www.future-science.com                            15
+www.wormbook.org                                  1
+www.jove.com                                      5
+ajprenal.physiology.org                           1
+www.beilstein-journals.org                        27
+jac.oxfordjournals.org                            3
+www.ajsonline.org                                 1
+www.sciencemag.org                                109
+emboj.embopress.org                               39
+genesdev.cshlp.org                                3
+biecoll.ub.uni-bielefeld.de                       1
+jme.sagepub.com                                   1
+msb.embopress.org                                 1
+search.ieice.org                                  2
+embor.embopress.org                               8
+trj.sagepub.com                                   1
+pps.sagepub.com                                   1
+jp4.journaldephysique.org                         4
+pig.sagepub.com                                   1
+digital-library.theiet.org                        5
+synapse.koreamed.org                              3
+cancerres.aacrjournals.org                        4
+www.int-res.com                                   3
+www.impactjournals.com                            1
+aqua.iwaponline.com                               1
+evodevojournal.biomedcentral.com                  1
+journals.iucr.org                                 1
+journals.cambridge.org                            43
+www.jle.com                                       1
+scfbm.biomedcentral.com                           2
+www.geosci-model-dev.net                          5
+hrcak.srce.hr                                     2
+www.jaim.in                                       1
+www.asianjournalofchemistry.co.in                 2
+www.clays.org                                     1
+cardiovascres.oxfordjournals.org                  2
+www.thieme-connect.de                             197
+ije.oxfordjournals.org                            1
+www.epj-conferences.org                           1
+doi.pangaea.de                                    1
+www.scielo.br                                     1
+www.bioscirep.org                                 2
+www.genetics.org                                  1
+www.wageningenacademic.com                        1
+ageing.oxfordjournals.org                         1
+www.ann-geophys.net                               4
+actaneurocomms.biomedcentral.com                  1
+corrosionjournal.org                              1
+www.futuremedicine.com                            5
+advancedsearch2.virginmedia.com                   1
+www.jbc.org                                       163
+www.osapublishing.org                             335
+www.ajol.info                                     2
+www.emeraldinsight.com                            37
+journal.frontiersin.org                           16
+koreascience.or.kr                                1
+jem.rupress.org                                   2
+link.springer.com                                 1
+essays.biochemistry.org                           1
+dmd.aspetjournals.org                             1
+iovs.arvojournals.org                             4
+www.ejcancer.com                                  1
+www.febsletters.org                               19
+www.omicsonline.org                               2
+jmcb.oxfordjournals.org                           2
+humrep.oxfordjournals.org                         2
+jop.sagepub.com                                   1
+www.biogeosciences-discuss.net                    1
+www.cell.com                                      247
+www.asiaandro.com                                 1
+jba.sagepub.com                                   1
+www.jurology.com                                  1
+www.clinchem.org                                  2
+www.fasebj.org                                    10
+aac.asm.org                                       16
+www.bioscience.org                                1
+www.biochemsoctrans.org                           50
+www.impublications.com                            3
+www.intechopen.com                                1
+proceedings.spiedigitallibrary.org                155
+linkinghub.elsevier.com                           31
+www.eas-journal.org                               1
+www.mdpi.com                                      50
+ajpendo.physiology.org                            2
+www.mcponline.org                                 20
+stke.sciencemag.org                               7
+opticalengineering.spiedigitallibrary.org         2
+jphys.journaldephysique.org                       1
+www.jstor.org                                     4
+www.akademiai.com                                 4
+materconstrucc.revistas.csic.es                   1
+www.onepetro.org:443                              1
+gut.bmj.com                                       1
+adsabs.harvard.edu                                2
+cshprotocols.cshlp.org                            1
+papers.sae.org                                    2
+molpharm.aspetjournals.org                        3
+gbe.oxfordjournals.org                            1
+www.pnas.org                                      330
+cancerdiscovery.aacrjournals.org                  1
+www.hydrol-earth-syst-sci.net                     1
+ebooks.iospress.nl                                6
+content.iospress.com                              5
+stm.sciencemag.org                                2
+peds.oxfordjournals.org                           31
+www.mmnp-journal.org                              1
+www.e3s-conferences.org                           1
+clincancerres.aacrjournals.org                    1
+----------------------------------------------------------------------
+Scraped Publisher Breakdown:
+----------------------------------------------------------------------
+
+Most frequent publisher:                        rsc
+
+
+Publisher                                number of records
+Springer                                          642
+ScienceDirect                                     520
+Nature                                            88
+scientific.net                                    10
+Wiley                                             2328
+RoyalSociety                                      52
+jstage                                            23
+rsc                                               4394
+ACS                                               4153
+International Union of Crystallography            761
+iop                                               147
+American Physical Society                         573
+
+********************************************************************************************************************************************
+Analysis of scraping run performed at 12:12 13 December 2015
+**********************************************************************
+
+Total records parsed:                             20049
+Total records successfully collected:             13691
+Conversion rate:                                  68.2877%
+
+
+----------------------------------------------------------------------
+Losses Breakdown:
+----------------------------------------------------------------------
+
+Total No. of records not converted:               6358
+No. lost due to errors in collection:             1569
+No. lost due to request timeouts:                 0
+No. lost due to missing publisher info:           4789
+
+
+----------------------------------------------------------------------
+Collection Errors Breakdown:
+----------------------------------------------------------------------
+
+Most collection errors for publisher:           scitation.aip.org
+
+
+Publisher                                   no. of errors
+scitation.aip.org                                 992
+onlinelibrary.wiley.com                           179
+www.sciencedirect.com                             15
+rsif.royalsocietypublishing.org                   4
+pubs.rsc.org                                      31
+www.nature.com                                    151
+rspa.royalsocietypublishing.org                   3
+journals.aps.org                                  4
+pubs.acs.org                                      6
+iopscience.iop.org                                95
+link.springer.com                                 89
+
+
+----------------------------------------------------------------------
+Missing publisher Errors Breakdown:
+----------------------------------------------------------------------
+
+Most frequent missing publisher:                www.tandfonline.com
+
+
+Publisher                                number of records
+polipapers.upv.es                                 1
+journals.prous.com                                2
+bmjopen.bmj.com                                   1
+mlq.sagepub.com                                   1
+rsnr.royalsocietypublishing.org                   1
+www.minersoc.org                                  6
+www.medicaljournals.se                            2
+jvi.asm.org                                       8
+mbe.oxfordjournals.org                            3
+www.aanda.org                                     9
+journals.plos.org                                 215
+iai.asm.org                                       2
+www.atmos-chem-phys.net                           129
+www.tandfonline.com                               696
+rsbm.royalsocietypublishing.org                   2
+www.dovepress.com                                 1
+joe.endocrinology-journals.org                    2
+www.fsijournal.org                                2
+ajcn.nutrition.org                                2
+www.cherd.ichemejournals.com                      3
+jid.oxfordjournals.org                            1
+www.jlr.org                                       3
+www.medecinesciences.org                          1
+brain.oxfordjournals.org                          2
+pih.sagepub.com                                   6
+ijepr.avestia.com                                 1
+biomedicaloptics.spiedigitallibrary.org           7
+rnajournal.cshlp.org                              4
+rsfs.royalsocietypublishing.org                   3
+diabetes.diabetesjournals.org                     6
+physrev.physiology.org                            1
+www.atmos-meas-tech.net                           11
+www.jeos.org                                      2
+www.molbiolcell.org                               9
+www.ep.liu.se                                     1
+plankt.oxfordjournals.org                         5
+dmm.biologists.org                                3
+g3journal.org                                     1
+cshperspectives.cshlp.org                         6
+www.plantcell.org                                 9
+www.scirp.org                                     3
+rstb.royalsocietypublishing.org                   31
+elementascience.org                               1
+www.5z.com                                        1
+www.hindawi.com                                   19
+cccc.uochb.cas.cz                                 2
+advances.sciencemag.org                           1
+www.icevirtuallibrary.com                         4
+ec.asm.org                                        8
+www.biochemj.org                                  97
+www.heterocycles.jp                               1
+mr.crossref.org                                   3
+genome.cshlp.org                                  2
+www.jimmunol.org                                  7
+scitation.aip.org                                 1
+jes.ecsdl.org                                     12
+mnras.oxfordjournals.org                          19
+journals.ametsoc.org                              9
+www.ajnr.org                                      2
+pubs.rsc.org                                      3
+hyper.ahajournals.org                             1
+www.worldscientific.com                           28
+embomolmed.embopress.org                          2
+www.plantphysiol.org                              13
+dl.acm.org                                        25
+hip.sagepub.com                                   3
+www.scienceopen.com                               1
+jcb.sagepub.com                                   1
+www.journalofhospitalinfection.com                2
+mnrasl.oxfordjournals.org                         2
+aem.asm.org                                       6
+online.liebertpub.com                             7
+jxb.oxfordjournals.org                            13
+www.atmos-chem-phys-discuss.net                   16
+dev.biologists.org                                11
+jpet.aspetjournals.org                            3
+bja.oxfordjournals.org                            3
+www.sciencedirect.com                             1
+www.inderscience.com                              18
+f1000research.com                                 1
+ogst.ifpenergiesnouvelles.fr                      1
+genomea.asm.org                                   1
+mcb.asm.org                                       7
+www.annualreviews.org                             25
+apsjournals.apsnet.org                            6
+pt.wkhealth.com                                   9
+database.oxfordjournals.org                       1
+nar.oxfordjournals.org                            69
+bioinformatics.oxfordjournals.org                 13
+hmg.oxfordjournals.org                            7
+jcs.biologists.org                                19
+jb.oxfordjournals.org                             1
+www.ams.org                                       1
+www.crossref.org                                  80
+jphyscol.journaldephysique.org                    8
+actachemscand.org                                 2
+jcb.rupress.org                                   10
+symposia.biochemistry.org                         2
+rspb.royalsocietypublishing.org                   17
+glycob.oxfordjournals.org                         6
+www.jucs.org                                      2
+www.jneurosci.org                                 6
+ecst.ecsdl.org                                    3
+www.nanomedjournal.com                            2
+www.jurnalteknologi.utm.my                        1
+tobaccocontrol.bmj.com                            1
+jbx.sagepub.com                                   5
+www.maneyonline.com                               5
+amj.aom.org                                       1
+cellandbioscience.biomedcentral.com               1
+www.contactlensjournal.com                        2
+www.crcnetbase.com                                3
+mct.aacrjournals.org                              5
+rsob.royalsocietypublishing.org                   10
+www.the-cryosphere.net                            1
+sp.lyellcollection.org                            1
+www.nrcresearchpress.com                          23
+www.doiserbia.nb.rs                               1
+aob.oxfordjournals.org                            1
+jim.sagepub.com                                   1
+www.jacionline.org                                6
+ammin.geoscienceworld.org                         3
+www.eurekaselect.com                              35
+teamat.oxfordjournals.org                         1
+orgsyn.org                                        1
+mic.microbiologyresearch.org                      11
+jss.ecsdl.org                                     1
+physiolgenomics.physiology.org                    1
+rsta.royalsocietypublishing.org                   45
+esl.ecsdl.org                                     8
+www.igi-global.com                                23
+atvb.ahajournals.org                              2
+www.schweizerbart.de                              1
+ebooks.cambridge.org                              5
+jb.asm.org                                        16
+www.pdpdt-journal.com                             1
+ajpcell.physiology.org                            1
+jgv.microbiologyresearch.org                      2
+www.isprs-ann-photogramm-remote-sens-spatial-inf-sci.net1
+carcin.oxfordjournals.org                         4
+www.witpress.com                                  1
+heart.bmj.com                                     2
+www.thebonejournal.com                            1
+pubs.acs.org                                      3
+femsle.oxfordjournals.org                         3
+journals.humankinetics.com                        3
+symposium.cshlp.org                               1
+femsre.oxfordjournals.org                         2
+www.biogeosciences.net                            3
+www.publish.csiro.au                              26
+www.earth-syst-sci-data.net                       1
+elifesciences.org                                 7
+ieeexplore.ieee.org                               444
+booksandjournals.brillonline.com                  1
+mutage.oxfordjournals.org                         1
+thescipub.com                                     1
+physiologyonline.physiology.org                   2
+www.spandidos-publications.com                    1
+www.karger.com                                    5
+bioscience.oxfordjournals.org                     1
+tellusa.net                                       1
+www.ingentaconnect.com                            67
+hum.sagepub.com                                   2
+diglib.eg.org                                     1
+www.bloodjournal.org                              7
+acsm.revuesonline.com                             1
+www.matec-conferences.org                         1
+www.jdsjournal.com                                1
+pub.iapchem.org                                   1
+www.ijdb.ehu.es                                   1
+www.jci.org                                       3
+elements.geoscienceworld.org                      1
+www.future-science.com                            15
+www.wormbook.org                                  1
+www.jove.com                                      5
+ajprenal.physiology.org                           1
+www.beilstein-journals.org                        27
+jac.oxfordjournals.org                            3
+www.ajsonline.org                                 1
+www.sciencemag.org                                109
+emboj.embopress.org                               39
+genesdev.cshlp.org                                3
+biecoll.ub.uni-bielefeld.de                       1
+jme.sagepub.com                                   1
+msb.embopress.org                                 1
+search.ieice.org                                  2
+embor.embopress.org                               8
+trj.sagepub.com                                   1
+pps.sagepub.com                                   1
+jp4.journaldephysique.org                         4
+pig.sagepub.com                                   1
+digital-library.theiet.org                        5
+synapse.koreamed.org                              3
+cancerres.aacrjournals.org                        4
+www.int-res.com                                   3
+www.impactjournals.com                            1
+aqua.iwaponline.com                               1
+evodevojournal.biomedcentral.com                  1
+journals.iucr.org                                 1
+journals.cambridge.org                            43
+www.jle.com                                       1
+scfbm.biomedcentral.com                           2
+www.geosci-model-dev.net                          5
+hrcak.srce.hr                                     2
+www.jaim.in                                       1
+www.asianjournalofchemistry.co.in                 2
+www.clays.org                                     1
+cardiovascres.oxfordjournals.org                  2
+www.thieme-connect.de                             197
+ije.oxfordjournals.org                            1
+www.epj-conferences.org                           1
+doi.pangaea.de                                    1
+www.scielo.br                                     1
+www.bioscirep.org                                 2
+www.genetics.org                                  1
+www.wageningenacademic.com                        1
+ageing.oxfordjournals.org                         1
+www.ann-geophys.net                               4
+actaneurocomms.biomedcentral.com                  1
+corrosionjournal.org                              1
+www.futuremedicine.com                            5
+advancedsearch2.virginmedia.com                   1
+www.jbc.org                                       163
+www.osapublishing.org                             335
+www.ajol.info                                     2
+www.emeraldinsight.com                            37
+journal.frontiersin.org                           16
+koreascience.or.kr                                1
+jem.rupress.org                                   2
+link.springer.com                                 1
+essays.biochemistry.org                           1
+dmd.aspetjournals.org                             1
+iovs.arvojournals.org                             4
+www.ejcancer.com                                  1
+www.febsletters.org                               19
+www.omicsonline.org                               2
+jmcb.oxfordjournals.org                           2
+humrep.oxfordjournals.org                         2
+jop.sagepub.com                                   1
+www.biogeosciences-discuss.net                    1
+www.cell.com                                      247
+www.asiaandro.com                                 1
+jba.sagepub.com                                   1
+www.jurology.com                                  1
+www.clinchem.org                                  2
+www.fasebj.org                                    10
+aac.asm.org                                       16
+www.bioscience.org                                1
+www.biochemsoctrans.org                           50
+www.impublications.com                            3
+www.intechopen.com                                1
+proceedings.spiedigitallibrary.org                155
+linkinghub.elsevier.com                           31
+www.eas-journal.org                               1
+www.mdpi.com                                      50
+ajpendo.physiology.org                            2
+www.mcponline.org                                 20
+stke.sciencemag.org                               7
+opticalengineering.spiedigitallibrary.org         2
+jphys.journaldephysique.org                       1
+www.jstor.org                                     4
+www.akademiai.com                                 4
+materconstrucc.revistas.csic.es                   1
+www.onepetro.org:443                              1
+gut.bmj.com                                       1
+adsabs.harvard.edu                                2
+cshprotocols.cshlp.org                            1
+papers.sae.org                                    2
+molpharm.aspetjournals.org                        3
+gbe.oxfordjournals.org                            1
+www.pnas.org                                      330
+cancerdiscovery.aacrjournals.org                  1
+www.hydrol-earth-syst-sci.net                     1
+ebooks.iospress.nl                                6
+content.iospress.com                              5
+stm.sciencemag.org                                2
+peds.oxfordjournals.org                           31
+www.mmnp-journal.org                              1
+www.e3s-conferences.org                           1
+clincancerres.aacrjournals.org                    1
+----------------------------------------------------------------------
+Scraped Publisher Breakdown:
+----------------------------------------------------------------------
+
+Most frequent publisher:                        rsc
+
+
+Publisher                                number of records
+Springer                                          642
+ScienceDirect                                     520
+Nature                                            88
+scientific.net                                    10
+Wiley                                             2328
+RoyalSociety                                      52
+jstage                                            23
+rsc                                               4394
+ACS                                               4153
+International Union of Crystallography            761
+iop                                               147
+American Physical Society                         573
+
+**********************************************************************
