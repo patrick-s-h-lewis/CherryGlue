@@ -1,0 +1,416 @@
+/* === START OF FIGURE VIEWER STYLES === */
+#figureViewer-wrap, #tableViewer-wrap {
+    position: fixed;
+    width: 100%;
+    /* data uri is used instead of a plain image to save an extra request from being sent if it fails we fall back to a regular 1px image
+       the reason we used it is that we need to introduce background transparency to IE that doesn't accept rgba. */
+    background:url('/templates/jsp/_style2/_tandf/images/1pxTranslucentGrey.png');
+    background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQIW2NkYGCoBwAAiQCB1bUosQAAAABJRU5ErkJggg==);
+    background-repeat: repeat;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+
+#figureViewer-wrap {
+    min-height: 100%;
+}
+
+#figureViewer, #tableViewer {
+    position: relative;
+    max-width: 1300px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+#figureViewerNav {
+    position: relative;
+    width: 899px;
+    height: 3em;
+    line-height: 20px;
+    margin: 0;
+}
+#figureViewerNav .figureNav {
+    position: absolute;
+    width: 280px;
+    left: 310px;
+    text-align: center;
+}
+
+#figureViewerNav .figureNav #NavText {
+    top: -15px;
+    position: relative;
+    right: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#figureViewer i.closeButton, #tableViewer i.closeButton{
+    float: right;
+    font-size: 30px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+#figureDescriptionPart , #tableDescriptionPart {
+padding-top: 16px;
+}
+
+#figureDescriptionPart .authorsHeading , #tableDescriptionPart .authorsHeading {
+    display: none;
+}
+
+#figureDescriptionPart .articleInfoSection , #tableDescriptionPart .articleInfoSection {
+    margin: 0 0 20px 0;
+}
+
+#figureViewerTopArticleInfo, #figureViewerDescription ,#tableViewerTopArticleInfo{
+    text-align: left;
+    padding: 20px;
+}
+
+#figureViewerDescription {
+    background-color: #E9E9E9;
+    font-size: 1.09em;
+}
+
+#figureCanvas, #tableCanvas {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 200px;
+    text-align: center;
+}
+#tableCanvas {
+    padding: 2.5%;
+    padding-bottom: 10px;
+}
+#figureCanvas .figBox {
+    float: none;
+    display: block;
+    background: #fff;
+    min-height: 200px;
+}
+
+#figureCanvas #figTools {
+    position: absolute;
+    top: 10px;
+    left: 3px;
+    text-align: left;
+}
+
+#figTools div {
+    height: 19px;
+    margin: 0 0 5px;
+    overflow: hidden;
+}
+
+#figTools div.weo {
+    width: 105px;
+}
+
+#figTools div.highRes {
+    width: 115px;
+}
+
+#figTools div.ppt {
+    width: 168px;
+}
+
+#figTools div a {
+    display: block;
+    height: 19px;
+}
+
+#figTools div.weo a {
+    background: url('/templates/jsp/images/icon-weo.gif') no-repeat;
+}
+
+#figTools div.highRes a {
+    font-size: 12px;
+}
+
+#figTools div a:hover {
+    background-position: 0px -19px;
+}
+
+#figTools div a span {
+    display: block;
+}
+
+#figureCanvas .caption {
+    margin: 7px 7px 0 7px;
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+    text-align: left;
+}
+
+.figureViewer-footer {
+    display: none;
+    bottom: 0;
+    margin-top: -48px;
+    position: relative;
+    text-align: center;
+}
+.imageControlContainer {
+    padding-bottom: 48px;
+}
+
+a.fwButton {
+    margin: 0 10px 10px 0;
+    background-color: #184097;
+    color: #FFF;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#refViewer-wrap #figureViewer-footer {
+    background: #E3E1E2 url('/templates/jsp/images/figureViewer-bg2.gif') repeat-y;
+    text-align: right;
+}
+
+#figureCanvas a:hover {
+    text-decoration: none;
+}
+
+#figureCanvas a.prev, #figureCanvas a.next {
+    position: absolute;
+    top: 60%;
+}
+
+#figureCanvas a.prev {
+    left: 50px;
+}
+
+#figureCanvas a.prev:before,
+#figureCanvas a.next:before,
+#tableViewerNav a:before{
+    color: #000;
+    position: absolute;
+    font-family: FontAwesome;
+    content: "\f137";
+    font-size: 30px;
+}
+
+#figureCanvas a.prev.disabled,
+#figureCanvas a.next.disabled {
+    cursor: default;
+}
+
+#figureCanvas a.prev.disabled:before,
+#figureCanvas a.next.disabled:before {
+    opacity: 0.5;
+}
+
+#figureCanvas a.next {
+    right: 50px;
+}
+
+#figureCanvas a.next:before, #tableViewerNav a.next:before {
+    content: "\f138";
+}
+
+#figureViewerNav a.prev,#refViewerNav a.prev {
+    top:0;
+    left:0;
+}
+
+#figureViewerNav a.next,#refViewerNav a.next {
+    top:0;
+    right:0;
+}
+
+#figureViewerNav .figureNav span,#refViewerNav .figureNav span {
+    vertical-align:bottom;
+}
+
+#figureCanvas #figTools,#refCanvas #figTools {
+    position:absolute;
+    top:10px;
+    left:3px;
+    text-align:left;
+}
+
+.figure .altMedium, .figure .altLarge, .figureNav .disabled, .disabled {
+    /*display: none !important;*/
+}
+
+/* === END OF FIGURE VIEWER STYLES === */
+
+#figTools div {
+    height: 19px;
+    margin: 0 0 5px;
+    overflow: hidden;
+}
+
+#figTools div.weo {
+    width: 105px;
+}
+
+#figTools div.highRes {
+    width: 115px;
+}
+
+#figTools div.ppt {
+    width: 168px;
+}
+
+#figTools div a {
+    display: block;
+    height: 19px;
+}
+
+#figTools div.weo a {
+    background: url('/templates/jsp/images/icon-weo.gif') no-repeat;
+}
+
+#figTools div.highRes a {
+    font-size: 12px;
+}
+
+#figTools div a:hover {
+    background-position: 0px -19px;
+}
+
+#figTools div a span {
+    display: block;
+}
+
+.figBox img {
+    display:block;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.bottomLeft {
+    float: left;
+    margin-left: 10px;
+    margin-left: 120px;
+}
+
+.bottomRight {
+    float: right;
+    margin-right: 120px;
+}
+
+
+.figBox img.full {
+    max-width: 3000px;
+    max-height: 3000px;
+}
+
+.figureViewerTopArticleInfo h1 , .tableViewerTopArticleInfo h1{
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.figureViewerTopArticleInfo .entryAuthor , .tableViewerTopArticleInfo .entryAuthor{
+    font-size: 1.333em;
+}
+
+.visible{
+    display: block;
+}
+.tableNav .prev{
+    top: 50%;
+    position: absolute;
+    left: 10px;
+    z-index: 10;
+    text-decoration: none;
+}
+
+.tableNav .next{
+    top: 50%;
+    position: absolute;
+    left: 97%;
+    z-index: 10;
+    text-decoration: none;
+}
+
+.tableBox table{
+    width: 95%;
+    background-color: white;
+}
+#tableViewerNav a:before{
+    position: relative;
+}
+#tableViewer i.closeButton{
+    margin: 5px;
+}
+#tableViewerNav .disabled{
+    display: none;
+}
+
+.tableBox caption h3 , .tableBox .paragraph{
+    background-color: #E9E9E9;
+    text-align: left;
+    padding: 30px;
+    font-size: 13px;
+    color: #000;
+    font-weight: bold;
+}
+
+.tableBox #tableCount h3{
+    font-weight: bold;
+    color: #000;
+    font-size: 13px;
+}
+
+#tableCanvas #NavText{
+    background-color: #E9E9E9;
+    float : left;
+}
+
+#figureViewerDescription .paragraph , #figureViewerDescription h3{
+    font-size: 13px;
+    font-weight: bold;
+    color: #000;
+}
+#figureCount h3{
+    margin: 0px;
+}
+
+#tableCount h3{
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 30px;
+    position: absolute;
+}
+#figureViewer .next:before, #figureViewer .prev:before, #figureViewer .closeButton:before{
+    display: none;
+}
+
+.figureViewerSprite {
+    background-image: url('/templates/jsp/_style2/_tandf/images/figureViewerSprite.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.figureViewerSprite_close_32 {
+    width: 32px;
+    height: 32px;
+    background-position: -3px -3px;
+}
+
+.figureViewerSprite_next_arrow_32 {
+    width: 32px;
+    height: 32px;
+    background-position: -41px -3px;
+}
+
+.figureViewerSprite_next_arrow_32.disabled {
+    width: 32px;
+    height: 32px;
+    background-position: -79px -3px;
+}
+
+.figureViewerSprite_back_arrow_32 {
+    width: 32px;
+    height: 32px;
+    background-position: -117px -3px;
+}
+
+.figureViewerSprite_back_arrow_32.disabled {
+    width: 32px;
+    height: 32px;
+    background-position: -155px -3px;
+}

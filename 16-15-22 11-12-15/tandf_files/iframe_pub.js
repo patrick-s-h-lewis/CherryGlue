@@ -1,0 +1,1 @@
+var IframeManager=function(){function e(b){b=b.data;b.message&&d&&d(b)}var c={},d=null;c.init=function(){window.addEventListener("message",e,!1)};c.setListener=function(b){d=b};c.tell=function(b,a){a=a||{};a.name&&-1!=a.name.toLowerCase().indexOf("error")&&(a={view:a.view,message:a.message,stack:a.stack});window.parent.postMessage({message:b,data:a},"*")};c.init();return c};

@@ -7,12 +7,17 @@
 import scrapy
 
 
-class DoiItem(scrapy.Item):
+class CrossRefItem(scrapy.Item):
     # define the fields for your item here like:
     doi = scrapy.Field()
-    source_url = scrapy.Field()
-    cross_ref_doi = scrapy.Field()
     title = scrapy.Field()
+    authors = scrapy.Field()
+    affiliations = scrapy.Field()
+    date = scrapy.Field()
+    publisher = scrapy.Field()
+    journal = scrapy.Field()
+    source_url = scrapy.Field()
+    crossref_doi = scrapy.Field()
     
 class CompleteItem(scrapy.Item):
     doi = scrapy.Field()

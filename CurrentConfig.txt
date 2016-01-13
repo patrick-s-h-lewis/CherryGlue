@@ -12,26 +12,26 @@ Rp4
 (dp5
 S'resultsfile'
 p6
-S'16-15-22 11-12-15/complete.json'
+S'13-02-16 13-01-16/complete.json'
 p7
 sS'subdir'
 p8
-S'16-15-22 11-12-15'
+S'13-02-16 13-01-16'
 p9
 sS'errorfile'
 p10
-S'16-15-22 11-12-15/errors.json'
+S'13-02-16 13-01-16/errors.json'
 p11
 sS'infile'
 p12
-S'scrape_these.json'
+S'scrape_sample.json'
 p13
 sS'reportfile'
 p14
-S'16-15-22 11-12-15/report.txt'
+S'13-02-16 13-01-16/report.txt'
 p15
 sS'doifile'
 p16
-S'16-15-22 11-12-15/dois.json'
+S'13-02-16 13-01-16/dois.json'
 p17
 sb.
