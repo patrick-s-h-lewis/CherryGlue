@@ -17,8 +17,10 @@ def getCurrentConfigs():
     return conf
 
 def finalise_file(file):
-    with open(file,'ab+') as f:
-        f.write('{}]')
+    with open(file,'rb+') as f:
+        f.seek(-2, os.SEEK_END)
+        f.truncate()
+        f.write(']')
 
 def connect(mongo_url,db,coll):
     client = MongoClient(mongo_url)
@@ -31,7 +33,6 @@ def get_dois(infile):
     doi_sources = {}
     with open(infile) as f:
         j = json.load(f)
-        j.remove({})
         for rec in j:
             doi_link = stub+rec['doi'] 
             doi_links.append(doi_link)

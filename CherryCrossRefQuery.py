@@ -6,7 +6,7 @@ import scrapy
 from scrapy.crawler import CrawlerRunner
 from scrapy.settings import Settings
 from scrapy.utils.log import configure_logging
-import Spiders.PickSpider
+import Spiders.CrossRefSpider
 import Pipelines.CherryPipelines
 
 def getCurrentConfigs():
@@ -20,15 +20,13 @@ def finalise_file(file):
         f.truncate()
         f.write(']')
         
-def get_joblist(infile):
-    joblist =[]
-    with open(infile) as f:
-       j=json.load(f)
-       for job in j:
-           if job['type']=='pick':
-               domain = job['url'].split('/')[2]
-               joblist.append(([job['url']],[domain]))
-    return joblist
+def get_url(query):
+    ###TO DO###
+    stub1 = 'http://api.crossref.org/works?filter=type:journal-article&rows=1000'
+    #stub1 = 'http://api.crossref.org/works?filter=type:journal-article&rows=1000'
+
+    stub2 = 'cursor=*'
+    return '&'.join([stub1,'query='+query,stub2])
 
 configs = getCurrentConfigs()
 settings = Settings()
@@ -42,11 +40,12 @@ settings.set('RETRY_TIMES',10)
 settings.set('FILE_NAME',configs.doifile)
 configure_logging({'LOG_FORMAT': '%(levelname)s: %(message)s'})
 
-joblist = get_joblist(configs.infile)
-a_d = list(set([i[1][0] for i in joblist]))
-s_u = [i[0][0] for i in joblist]
+joblist = get_url('chemistry')
 runner = CrawlerRunner(settings)
-d=runner.crawl(Spiders.PickSpider.PickSpider,s_u=s_u,a_d=a_d)
+'''for job in joblist:
+    runner.crawl(PickSpider.PickSpider,s_u=job[0],a_d=job[1])
+d=runner.join()'''
+d=runner.crawl(Spiders.CrossRefSpider.CrossRefSpider,s_u=[joblist])
 d2 = d.addBoth(lambda _:reactor.stop())
 d2.addCallback(lambda _:finalise_file(configs.doifile))
 reactor.run()

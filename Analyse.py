@@ -20,8 +20,6 @@ with open(configs.resultsfile,'r') as sr:
         time_l=[]
         miss_l=[]
         pub_l =[]
-        s.remove({})
-        f.remove({})
         for rec in f:
             if rec['error']=='collection':
                 coll_no+=1
