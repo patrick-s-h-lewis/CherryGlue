@@ -21,10 +21,7 @@ def finalise_file(file):
         f.write(']')
         
 def get_url(query):
-    ###TO DO###
     stub1 = 'http://api.crossref.org/works?filter=type:journal-article&rows=1000'
-    #stub1 = 'http://api.crossref.org/works?filter=type:journal-article&rows=1000'
-
     stub2 = 'cursor=*'
     return '&'.join([stub1,'query='+query,stub2])
 

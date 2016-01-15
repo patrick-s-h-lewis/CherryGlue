@@ -8,6 +8,6 @@ then
 else
 	python -b initialise.py $infile
 	python -b CherryCollect.py
-	#python -b CherryConsume.py
-	#python -b Analyse.py
+	python -b CherryConsume.py
+	python -b Analyse.py
 fi
