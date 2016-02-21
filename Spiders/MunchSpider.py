@@ -14,13 +14,6 @@ from scrapy.http import Request
 import traceback
 from twisted.internet.error import TimeoutError
 
-
-def dump_record(record,file):
-    with open(file,'a') as f:
-        json.dump(record,f,sort_keys=True,indent=4,ensure_ascii=True)
-        fd.write(',')
-
-
 class MunchSpider(CrawlSpider):
     name = "Munch"
     losses = 0
@@ -36,8 +29,8 @@ class MunchSpider(CrawlSpider):
     
     def dump_record(self,record):
         with open(self.errorfile,'a') as f:
-            json.dump(record,f,sort_keys=True,indent=4,ensure_ascii=True)
-            f.write(',')
+            ln = json.dumps(record,f) + ',\n'
+            f.write(ln)
         
     def get_pub_paths(self,publisher):
     ###to do, build database with all of these
@@ -67,7 +60,7 @@ class MunchSpider(CrawlSpider):
         total = len(self.start_urls)
         for url in self.start_urls:
             doi = url.replace('http://dx.doi.org/','')
-            yield Request(url, meta={'doi': doi,'source_url':self.doi_sources[doi]},
+            yield Request(url, meta={'doi': doi,'source':self.doi_sources[doi]},
                 callback=self.parse)
     
     def parse(self, response):
@@ -102,34 +95,26 @@ class MunchSpider(CrawlSpider):
                 self.losses+=1
     
     def get_item(self, response, paths):
-        title= response.xpath(paths['x_title']).extract()[0]
         abstract = response.xpath(paths['x_abstract']).extract()[0]
-        people = response.xpath(paths['x_people'])
-        depts = response.xpath(paths['x_depts'])
-        pex=[]
-        dex=[]
-        for person in people:
-            p = person.xpath(paths['x_person']).extract()
-            if not(p==[])and (len(p)==1):
-                pex.append(p[0])
-            else:
-                pex.append(p)
-        for dept in depts:
-            d = dept.xpath(paths['x_dept']).extract()
-            if not(d==[]):
-                dex.append(d[0])
-        exec paths['name_con']
-        date = response.xpath(paths['x_date']).extract()[0]
-        exec paths['date_con']
-        dex = list(set(dex))
-        pex = list(set(pex))
+        try:
+	    depts = response.xpath(paths['x_depts'])
+            dex=[]
+            for dept in depts:
+                d = dept.xpath(paths['x_dept']).extract()
+                if not(d==[]):
+                    dex.append(d[0])
+            dex = list(set(dex))
+        except:
+	    dex = []
         item = Items.CherryItems.CompleteItem()
-        item['doi'] = response.meta['doi']
-        item['title'] = re.sub('\n','',title)
+        protoitem = response.meta['source']
+        item['doi'] = protoitem['doi']
+        item['title'] = protoitem['title']
         item['abstract'] = re.sub('\n','',abstract)
-        item['authors'] = pex
+        item['authors'] = protoitem['authors']
         item['affiliations'] = dex
-        item['date'] = date.strftime('%d %B %Y')
-        item['publisher'] = paths['publisher']
-        item['source_url'] = response.meta['source_url']
+        item['date'] = protoitem['date']
+        item['publisher'] = protoitem['publisher']
+        item['source_url'] = protoitem['source_url']
+        item['journal'] = protoitem['journal']
         return item

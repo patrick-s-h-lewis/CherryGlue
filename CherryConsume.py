@@ -36,7 +36,7 @@ def get_dois(infile):
         for rec in j:
             doi_link = stub+rec['doi'] 
             doi_links.append(doi_link)
-            doi_sources[rec['doi']]=rec['source_url']
+            doi_sources[rec['doi']]=rec
     return (doi_links,doi_sources)
     
 def get_domains(dbcoll):

@@ -39,6 +39,18 @@ parse_no = success_no+fail_no
 conv_no = float(success_no)/float(parse_no)
 coll_pub = [r['pub'] for r in coll_l]
 miss_pub = [r['pub'] for r in miss_l]
+if len(coll_pub)>0:
+    most_coll_errors = max(set(coll_pub), key=coll_pub.count) 
+else:
+    most_coll_errors = 'No Collection Errors'
+if len(miss_pub)>0:
+    most_missing_errors = max(set(miss_pub), key=miss_pub.count)
+else:
+    most_missing_errors = 'No Missing Publisher Errors'
+if len(pub_l)>0:
+    most_pub = max(set(pub_l), key=pub_l.count)
+else: 
+    most_pub = 'No Most Frequent Publisher'
 with open(configs.reportfile,'ab+') as f:
     f.write('*'*70+'\n')
     f.write("Analysis of scraping run performed at "+datetime.datetime.now().strftime('%H:%m %d %B %Y')+'\n')
@@ -58,7 +70,7 @@ with open(configs.reportfile,'ab+') as f:
     f.write('-'*70+'\n')
     f.write('Collection Errors Breakdown:'+'\n')
     f.write('-'*70+'\n'+'\n')
-    f.write('Most collection errors for publisher:           '+max(set(coll_pub), key=coll_pub.count)+'\n')
+    f.write('Most collection errors for publisher:           '+most_coll_errors+'\n')
     f.write('\n'+'\n')
     f.write('Publisher                                   no. of errors')
     f.write('\n')
@@ -69,7 +81,7 @@ with open(configs.reportfile,'ab+') as f:
     f.write('-'*70+'\n')
     f.write('Missing publisher Errors Breakdown:'+'\n')
     f.write('-'*70+'\n'+'\n')
-    f.write('Most frequent missing publisher:                '+max(set(miss_pub), key=miss_pub.count)+'\n')
+    f.write('Most frequent missing publisher:                '+most_missing_errors+'\n')
     f.write('\n'+'\n')
     f.write('Publisher                                number of records')
     f.write('\n')
@@ -79,7 +91,7 @@ with open(configs.reportfile,'ab+') as f:
     f.write('-'*70+'\n')
     f.write('Scraped Publisher Breakdown:'+'\n')
     f.write('-'*70+'\n'+'\n')
-    f.write('Most frequent publisher:                        '+max(set(pub_l), key=pub_l.count)+'\n')
+    f.write('Most frequent publisher:                        '+most_pub+'\n')
     f.write('\n'+'\n')
     f.write('Publisher                                number of records')
     f.write('\n')

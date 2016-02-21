@@ -26,6 +26,7 @@ class CompleteItem(scrapy.Item):
     authors = scrapy.Field()
     affiliations = scrapy.Field()
     date = scrapy.Field()
+    journal = scrapy.Field()
     publisher = scrapy.Field()
     source_url = scrapy.Field()
     
